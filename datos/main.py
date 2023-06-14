@@ -13,17 +13,14 @@ aux = {"name": 1, "album": 2, "popularity": 3, "artist": 4, "genre": 5}
 
 aux.update(sp.audio_features('4c6LgotpKGB791EsNeu9gr')[0])
 
-
+#por alguna estupida razon necesito un diccionario y un array con la misma info
 for i in aux:
     campos.append(str(i))
-
-print(campos)
 
 for i in range(len(campos)):
     campos2[str(campos[i])] = campos[i]
 
-print(campos2)
-
+#escribimos los datos en un csv
 with open("bjork.csv", 'w', encoding='UTF-8') as file:
     writer = csv.DictWriter(file, campos)
     writer.writerow(campos2)
