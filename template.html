@@ -6,7 +6,7 @@
   <style>
     /* Estilos para las secciones */
     .seccion1 {
-      background-color: #F06292; /* Rosado */
+      background-color: #121212; /* Rosado */
       padding: 50px;
     }
 
@@ -28,6 +28,8 @@
 
     h1 {
       text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: #E91E63;
     }
 
     .contenido {
@@ -42,16 +44,34 @@
       height: auto;
       margin: 20px auto;
     }
+
+    .chart {
+      overflow-y: auto;
+      color: white;
+    }
+    #chart {
+      overflow-y: auto;
+    }
   </style>
 </head>
 <body>
   <div class="seccion1">
     <div class="contenido">
       <h1>La Evolución Musical de Björk</h1>
-      <img src="ruta_a_la_imagen1.jpg" alt="Björk Imagen 1">
+      <img src="https://i.pinimg.com/564x/95/b7/3b/95b73b21131d6e6de309c7ff40bb6afe.jpg" alt="Björk Imagen 1">
       <p>Aquí puedes escribir algunos datos sobre Björk.</p>
-      <p>También puedes agregar más contenido aquí.</p>
+      <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
+        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas 
+        sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
+        qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam 
+        aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi 
+        consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum 
+        fugiat quo voluptas nulla pariatur?"</p>
+      <img id = "foto 2"src="https://i.pinimg.com/564x/67/cb/78/67cb78034ff7413b13df99b6995d4b66.jpg">
+      
+      <br>
     </div>
+    <div class = "chart" id="chart"></div>
   </div>
 
   <div class="seccion2">
@@ -66,6 +86,11 @@
       <h1>Otro Gráfico</h1>
       <!-- Aquí puedes insertar tu otro gráfico -->
     </div>
-  </div>
+  </div> 
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.2/iframeResizer.contentWindow.js"></script>
+  <script src="graficos/graficos.js"></script>
 </body>
 </html>
