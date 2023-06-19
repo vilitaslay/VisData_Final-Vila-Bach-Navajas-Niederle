@@ -1,24 +1,57 @@
 [
     {
-        "categoria": "Arte y literatura",
-        "pregunta": "¿A que album pertenece esta cancion??",
-        "respuesta": "Leonardo da Vinci",
-        "incorrecta1": "Picasso",
-        "incorrecta2": "Miguel Ángel",
-        "incorrecta3": "Monet",
+        "categoria": "Bjork's hidden Gems",
+        "pregunta": "¿A qué album pertenece esta canción?",
+        "respuesta": "Fossora",
+        "incorrecta1": "Debut",
+        "incorrecta2": "Post",
+        "incorrecta3": "Vulnicura",
         "imagen": "https://i.ibb.co/9cjvmw1/mona-lisa.jpg",
         "objectFit": "cover",
-        "cancion":"NewJeans (뉴진스) - 'OMG' (Jazz Piano Remix) (Prod. MINDA).mp3"
+        "cancion":"Fungal_city.mp3"
     },
     {
-        "categoria": "Arte y literatura",
-        "pregunta": "¿A qel pepee?",
-        "respuesta": "pepei",
-        "incorrecta1": "Picasso",
-        "incorrecta2": "Miguel Ángel",
-        "incorrecta3": "Monet",
+        "categoria": "Bjork's hidden Gems",
+        "pregunta": "¿A qué album pertenece esta canción?",
+        "respuesta": "Debut",
+        "incorrecta1": "Vespertine",
+        "incorrecta2": "Post",
+        "incorrecta3": "Vulnicura",
         "imagen": "https://i.ibb.co/9cjvmw1/mona-lisa.jpg",
         "objectFit": "cover",
-        "cancion":"ITZY.mp3"
+        "cancion":"Like_someone_in_love<3.mp3"
+    },
+    {
+        "categoria": "Bjork's hidden Gems",
+        "pregunta": "¿A qué album pertenece esta canción?",
+        "respuesta": "Vesperine",
+        "incorrecta1": "Fossora",
+        "incorrecta2": "Post",
+        "incorrecta3": "Vulnicura",
+        "imagen": "https://i.ibb.co/9cjvmw1/mona-lisa.jpg",
+        "objectFit": "cover",
+        "cancion":"cocoon.mp3"
+    },
+    {
+        "categoria": "Bjork's hidden Gems",
+        "pregunta": "¿A qué album pertenece esta canción?",
+        "respuesta": "Post",
+        "incorrecta1": "Vespertine",
+        "incorrecta2": "Fossora",
+        "incorrecta3": "Vulnicura",
+        "imagen": "https://i.ibb.co/9cjvmw1/mona-lisa.jpg",
+        "objectFit": "cover",
+        "cancion":"Possibly_maybe.mp3"
+    },
+    {
+        "categoria": "Bjork's hidden Gems",
+        "pregunta": "¿A qué album pertenece esta canción?",
+        "respuesta": "Vulnicura",
+        "incorrecta1": "Vespertine",
+        "incorrecta2": "Post",
+        "incorrecta3": "Debut",
+        "imagen": "https://i.ibb.co/9cjvmw1/mona-lisa.jpg",
+        "objectFit": "cover",
+        "cancion":"Mouth_mantra.mp3"
     }
 ]
