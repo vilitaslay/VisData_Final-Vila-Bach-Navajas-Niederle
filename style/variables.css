@@ -1,42 +1,56 @@
 :root {
-    /*Paleta General*/
+    /* Paleta General */
     --main-bg : hsl(0, 0%, 7%);  
-    --main-h1 : hsl(340, 82, 52);
+    --main-h1 : hsl(340, 82%, 52%);
     --main-text : hsl(0, 0%, 100%);
 
-    /*Paleta Debut*/
+    /* Paleta Debut */
     --Debut1 : hsl(22, 6, 25); 
     --Debut2 : hsl(22, 7, 33);
     --Debut3 : hsl(20, 5, 48);
     --Debut4 : #b1aaa5;
     --Debut5 : hsl(27, 7, 73);
 
-    /*Paleta Post*/
-    --Post1 : hsl(331, 67, 41);
-    --Post2 : hsl(338, 54, 62);
+    /* Paleta Post */
+    --Post1 : #af2366;
+    --Post2 : #d26a90;
     --Post3 : hsl(0, 33, 15);
     --Post4 : hsl(359, 46, 79);
     --Post5 : hsl(202, 35, 94);
     
-    /*Paleta Vespertine*/
+    /* Paleta Vespertine */
     --Vesp1 : hsl(180, 1, 15); 
     --Vesp2 : hsl(180, 1, 30);     
-    --Vesp3 : hsl(210, 1, 44); 
+    --Vesp3 : #6f7071; 
     --Vesp4 : hsl(200, 2, 70); 
     --Vesp5 : hsl(210, 6, 93); 
 
-    /*Paleta Vulnicura*/
+    /* Paleta Vulnicura */
     --Vuln1 : hsl(208, 36, 50);
-    --Vuln2 : hsl(57, 63, 70);
+    --Vuln2 : #e3de82;
     --Vuln3 : hsl(240, 9, 9);
     --Vuln4 : hsl(55, 35, 93);
     --Vuln5 : hsl(250, 25, 95);
 
-    /*Paleta Fossora*/
+    /* Paleta Fossora */
     --Foss1 : hsl(187, 86, 26);
-    --Foss2 : hsl(192, 22, 46);
+    --Foss2 : #5b858f;
     --Foss3 : hsl(352, 50, 25);
     --Foss4 : hsl(180, 19, 11);
     --Foss5 : hsl(213, 16, 66);
+
+    /* Links a imagenes */
+    --portadaDebut : "https://i.scdn.co/image/ab67616d0000b2736a035608384de03ffe9930a3";    
+    --portadaPost : "https://i.scdn.co/image/ab67616d0000b2735092260f47e0d95717b834c3";
+    --portadaVesp : "https://i.scdn.co/image/ab67616d0000b273bc31229deb79f896eb9fee84";
+    --portadaVuln : "https://i.scdn.co/image/ab67616d0000b2731bd3911a9955527b302246c0";
+    --portadaFossora : "https://i.scdn.co/image/ab67616d0000b273961d278ff072bc251b22ae1c";
+
+
+
+
+
+
+
 
 }

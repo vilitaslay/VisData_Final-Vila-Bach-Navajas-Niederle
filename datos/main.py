@@ -2,26 +2,10 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import csv
 import random
-class Album:
-    def __init__(self, nombre, artista, popularidad, genero, loudness, energy, uri):
-        self.nombre = nombre,
-        self.artista = artista 
-        self.popularidad = popularidad
-        self.genero = genero 
-        self.loudness = loudness
-        self.energy = energy
-        self.uri = uri
-    
+
 
 client_credentials_manager = SpotifyClientCredentials(client_id='95bbea0e91594af196a688f36ff2faa8', client_secret='fc7e4d9432a2486e8be0231cf52fd22b')
 sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager)
-
-imagenes = ["https://i.scdn.co/image/ab67616d0000b2736a035608384de03ffe9930a3", 
-            "https://i.scdn.co/image/ab67616d0000b2735092260f47e0d95717b834c3", 
-            "https://i.scdn.co/image/ab67616d0000b273bc31229deb79f896eb9fee84",
-            "https://i.scdn.co/image/ab67616d0000b2731bd3911a9955527b302246c0",
-            "https://i.scdn.co/image/ab67616d0000b273961d278ff072bc251b22ae1c"
-            ]
 
 URIS = ["4ORsCg1x8p80RfW0vXA35N","3p7WXDBxhC5KS9IFXnwae7","4u3MPfHM60rFFULJebZIay","2i0mqPNTcaLcmKWSMsE3c8","0KVdzmHHGGE8STv19uYPiL"]
 campos = []
@@ -36,17 +20,6 @@ for i in aux:
 
 for i in range(len(campos)):
     campos2[str(campos[i])] = campos[i]
-
-# # def media(uri){
-    
-# # }
-
-# #obtenemos los parametros de interes para cada album 
-# # for album in URIS:
-# #     info = sp.album(album)
-# #     album1 = Album()
-# #     album1.name = info["name"]
-# #     album1.artista = info["artists"]
 
 # #escribimos los datos en un csv
 with open("bjork.csv", 'w', encoding='UTF-8') as file:
