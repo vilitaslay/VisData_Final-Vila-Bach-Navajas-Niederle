@@ -4,21 +4,6 @@
   <meta charset="UTF-8">
   <title>La Evolución Musical de Björk</title>
   <style>
-    /* Estilos para las secciones */
-    .seccion1 {
-      background-color: #121212; /* Rosado */
-      padding: 50px;
-    }
-
-    .seccion2 {
-      background-color: #E91E63; /* Magenta */
-      padding: 50px;
-    }
-
-    .seccion3 {
-      background-color: #FF4081; /* Rosado claro */
-      padding: 50px;
-    }
 
     /* Estilos generales */
     body {
@@ -87,10 +72,38 @@
       <!-- Aquí puedes insertar tu otro gráfico -->
     </div>
   </div> 
+  <script>
+    var body = document.getElementsByTagName('body')[0];
+    body.style.backgroundColor = 'black';
 
+    // trigger this function every time the user scrolls
+    window.onscroll = function (event) {
+        var scroll = window.pageYOffset;
+        if (scroll < 300) {
+            // green
+            body.style.backgroundColor = '#121212';
+        } else if (scroll >= 100 && scroll < 300) {
+            // yellow
+            body.style.backgroundColor = '#E91E63';
+        } else if (scroll >= 300 && scroll < 600) {
+            // blue
+            body.style.backgroundColor = '#FF4081';
+        } else if (scroll >= 600 && scroll < 900) {
+            // orange
+            body.style.backgroundColor = 'lightblue';
+        } else if (scroll >= 900 && scroll < 15000) {
+            // red
+            body.style.backgroundColor = 'orange';
+        } else {
+            // purple
+            body.style.backgroundColor = 'yellow';
+        }
+    }
+</script>
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
   <script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.2/iframeResizer.contentWindow.js"></script>
   <script src="graficos/graficos.js"></script>
 </body>
 </html>
+
