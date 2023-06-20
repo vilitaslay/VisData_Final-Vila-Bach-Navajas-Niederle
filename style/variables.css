@@ -46,11 +46,11 @@
     --portadaVuln : "https://i.scdn.co/image/ab67616d0000b2731bd3911a9955527b302246c0";
     --portadaFossora : "https://i.scdn.co/image/ab67616d0000b273961d278ff072bc251b22ae1c";
 
+}
 
-
-
-
-
-
-
+@font-face {
+    font-family: 'bjork';
+    src: url('datos/bjork.woff2') format('woff2'),
+         url('datos/bjork.woff') format('woff'),
+         url("datos/bjork.ttf")  format('truetype');
 }
