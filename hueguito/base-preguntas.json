@@ -6,7 +6,7 @@
         "incorrecta1": "Debut",
         "incorrecta2": "Post",
         "incorrecta3": "Vulnicura",
-        "imagen": "https://i.ibb.co/9cjvmw1/mona-lisa.jpg",
+        "imagen": "fotoalbums.jpg",
         "objectFit": "cover",
         "cancion":"Fungal_city.mp3"
     },
@@ -17,9 +17,9 @@
         "incorrecta1": "Vespertine",
         "incorrecta2": "Post",
         "incorrecta3": "Vulnicura",
-        "imagen": "https://i.ibb.co/9cjvmw1/mona-lisa.jpg",
+        "imagen": "fotoalbums.jpg",
         "objectFit": "cover",
-        "cancion":"Like_someone_in_love<3.mp3"
+        "cancion":"Like_someone_in_love.mp3"
     },
     {
         "categoria": "Bjork's hidden Gems",
@@ -28,7 +28,7 @@
         "incorrecta1": "Fossora",
         "incorrecta2": "Post",
         "incorrecta3": "Vulnicura",
-        "imagen": "https://i.ibb.co/9cjvmw1/mona-lisa.jpg",
+        "imagen": "fotoalbums.jpg",
         "objectFit": "cover",
         "cancion":"cocoon.mp3"
     },
@@ -39,7 +39,7 @@
         "incorrecta1": "Vespertine",
         "incorrecta2": "Fossora",
         "incorrecta3": "Vulnicura",
-        "imagen": "https://i.ibb.co/9cjvmw1/mona-lisa.jpg",
+        "imagen": "fotoalbums.jpg",
         "objectFit": "cover",
         "cancion":"Possibly_maybe.mp3"
     },
@@ -50,7 +50,7 @@
         "incorrecta1": "Vespertine",
         "incorrecta2": "Post",
         "incorrecta3": "Debut",
-        "imagen": "https://i.ibb.co/9cjvmw1/mona-lisa.jpg",
+        "imagen": "fotoalbums.jpg",
         "objectFit": "cover",
         "cancion":"Mouth_mantra.mp3"
     }
