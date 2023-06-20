@@ -12,33 +12,50 @@ html {
 body {
    margin: 20px;
    font-family: Arial, sans-serif;
-   background-color: var(--Vuln1);
+   background-color: var(--main-bg);
+   color: var(--main-text)
 }
-h1 {
+h1,h3 {
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .contenido {
   max-width: 800px;
   margin: 20px;
-  color: var(--main-text); /*Texto blanco para resaltar en los colores de fondo*/
+  color: var(--main-text);
+  display: block;
+  align-content: center;
 }
 img {
-  display: block;
   max-width: 100%;
   height: auto;
-  margin: 20px auto;
+  margin: auto;
 }
 .chart {
   overflow-y: auto;
   color: var(--main-text);
 }
 
+.album {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 200px;
+}
+button {
+  width: 300px;
+  height: 150px;
+}
 
 /* IDs */
 #titulo {
     color: var(--main-h1);
 }
+
 #chart {
   overflow-y: auto;
+}
+#portadaAlbum {
+ width: 300px;
+ margin: 100px;
 }

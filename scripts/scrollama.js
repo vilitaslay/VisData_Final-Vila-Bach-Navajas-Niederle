@@ -1,15 +1,15 @@
 
 var body = document.getElementsByTagName('body')[0];
-    body.style.backgroundColor = '#121212';
+    body.style.backgroundColor = "#121212";
 
     // trigger this function every time the user scrolls
     window.onscroll = function (event) {
         var scroll = window.pageYOffset;
         if (scroll < 300) {
-            // green
+            // al inicio nos interesa el fondo normal
             body.style.backgroundColor = '#121212';
         } else if (scroll >= 100 && scroll < 300) {
-            // yellow
+            //llegamos a la seccion de Debut
             body.style.backgroundColor = 'hsl(22, 6, 25)';
         } else if (scroll >= 300 && scroll < 600) {
             // blue
@@ -33,24 +33,31 @@ var body = document.getElementsByTagName('body')[0];
         var scrollHeight = document.documentElement.scrollHeight - windowHeight;
         
         var color;
-        
-        if (scroll < scrollHeight * 0.2) {
-            // Gris inicial
-            color = interpolateColors('#808080', '#FF69B4', scroll / (scrollHeight * 0.2));
-        } else if (scroll < scrollHeight * 0.4) {
+         if (scroll < scrollHeight * 0.4) {
             // Transición de rosa a gris
-            color = interpolateColors('#FF69B4', '#808080', (scroll - scrollHeight * 0.2) / (scrollHeight * 0.2));
-        } else if (scroll < scrollHeight * 0.6) {
+            color = interpolateColors('#121212', '#808080', (scroll - scrollHeight * 0.2) / (scrollHeight * 0.2));
+        } 
+        else if (scroll < scrollHeight * 0.5) {
             // Transición de gris a amarillo pastel
-            color = interpolateColors('#808080', '#FFFF99', (scroll - scrollHeight * 0.4) / (scrollHeight * 0.2));
-        } else if (scroll < scrollHeight * 0.8) {
+            color = interpolateColors('#808080', '#d26a90', (scroll - scrollHeight * 0.4) / (scrollHeight * 0.2));
+        } 
+        else if (scroll < scrollHeight * 0.6) {
+            // Transición de gris a amarillo pastel
+            color = interpolateColors('#d26a90', '#6f7071', (scroll - scrollHeight * 0.5) / (scrollHeight * 0.2));
+        } 
+        else if (scroll < scrollHeight * 0.7) {
             // Transición de amarillo pastel a verde amarronado opaco
-            color = interpolateColors('#FFFF99', '#556B2F', (scroll - scrollHeight * 0.6) / (scrollHeight * 0.2));
-        } else {
-            // Verde amarronado opaco
-            color = '#556B2F';
+            color = interpolateColors('#6f7071', '#e3de82', (scroll - scrollHeight * 0.6) / (scrollHeight * 0.2));
+        } 
+        else if (scroll < scrollHeight * 0.8){
+            color = interpolateColors('#e3de82', '#5b858f', (scroll - scrollHeight* 0.7) / (scrollHeight * 0.2));
         }
-        
+        else if (scroll < scrollHeight * 0.9){
+            color = interpolateColors('#5b858f', '#121212', (scroll - scrollHeight* 0.8) / (scrollHeight * 0.2));
+        }
+        else {
+            color = "#121212"
+        }
         body.style.backgroundColor = color;
     }
     
