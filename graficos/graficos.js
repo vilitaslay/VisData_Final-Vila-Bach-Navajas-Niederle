@@ -18,7 +18,7 @@ d3.csv("./datos/bjork.csv", d3.autoType).then(data => {
             
         },
         style : {
-            background: '#121212',
+            background: 'transparent',
             fontSize: 16,
         },
     })

@@ -4,12 +4,14 @@
   <meta charset="UTF-8">
   <title>La Evolución Musical de Björk</title>
   <link rel="stylesheet" href="/style/styleMain.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.0/dist/sweetalert2.all.min.js"></script>
+  <link rel="stylesheet" href = "/style/styleHueguito.css">
 </head>
 <body>
+  <!-- wikipedia trucha -->
     <div class="contenido">
       <h1 id = "titulo">La Evolución Musical de Björk</h1>
-      <img src="https://i.pinimg.com/564x/95/b7/3b/95b73b21131d6e6de309c7ff40bb6afe.jpg" alt="Björk Imagen 1"> 
-      <p>Aquí puedes escribir algunos datos sobre Björk.</p>
+      <img id = "foto1" src="https://i.pinimg.com/564x/95/b7/3b/95b73b21131d6e6de309c7ff40bb6afe.jpg" alt="Björk Imagen 1"> 
       <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas 
         sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
@@ -18,10 +20,10 @@
         consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum 
         fugiat quo voluptas nulla pariatur?"</p>
     </div> 
-   
+   <br>
     <div class = "contenido">
+      <h2>Inicios </h2>
       <img id = "foto2"src="https://i.pinimg.com/564x/67/cb/78/67cb78034ff7413b13df99b6995d4b66.jpg">  
-      <p>Aquí puedes escribir algunos datos sobre Björk.</p>
       <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas 
         sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
@@ -30,32 +32,128 @@
         consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum 
         fugiat quo voluptas nulla pariatur?"</p> 
     </div>
-  <div class = "album">
-    <img id = "portadaAlbum" src = "https://i.scdn.co/image/ab67616d0000b2736a035608384de03ffe9930a3" alt = "Portada Debut">
-    <h3>Debut</h3>
-</div>
+    <br>
+    <div class = "contenido">
+      <h2>Carrera Musical </h2>
+      <img id = "foto3" src="https://i.pinimg.com/originals/18/df/27/18df27e46458f0b2cdc1f4aa4e23b3ce.jpg">  
+      <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
+        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas 
+        sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
+        qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam 
+        aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi 
+        consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum 
+        fugiat quo voluptas nulla pariatur?"</p> 
+    </div>
+    <br>
+    <div class = "contenido">
+      <h2>Momentos Iconicos </h2>
+      <img id = "foto4" src="https://i.pinimg.com/originals/c8/0a/74/c80a7425a6926002b8a707ce24050b56.jpg">  
+      <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
+        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas 
+        sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
+        qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam 
+        aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi 
+        consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum 
+        fugiat quo voluptas nulla pariatur?"</p> 
+    </div>
+    <br>
+    <br>
+
+
+  <!-- scrollytelling albums -->
+  
+  <div class = "contenido">
+    <h2 style = "text-align: center;"> Discografia </h2>
+    <div class = "album">
+      <div class = "bloquex">
+          <img id = "portada" src = "https://i.scdn.co/image/ab67616d0000b2736a035608384de03ffe9930a3">
+          <nav>
+              <h4>Popularidad<br> 20%</h4>
+              <h4>Energia <br> 34%</h4>
+          </nav>
+          <nav>
+              <h4>Ruido<br>11%</h4>
+              <h4>Emocion <br> 98%</h4>
+          </nav>
+      </div>
   <br>
   <div class = "album">
-    <img id = "portadaAlbum" src = "https://i.scdn.co/image/ab67616d0000b2735092260f47e0d95717b834c3" alt = "Portada Post">
-    <h3>Post</h3>
-  </div>
-  <div class = "album">
-      <img id = "portadaAlbum" src = "https://i.scdn.co/image/ab67616d0000b273bc31229deb79f896eb9fee84" alt = "Portada Vespertine">
-      <h3>Vespertine</h3>
-      </div>
-  <div class = "album">
-    <img id = "portadaAlbum" src = "https://i.scdn.co/image/ab67616d0000b2731bd3911a9955527b302246c0" alt = "Portada Vulnicura">
-    <h3>Vulnicura</h3>
+    <div class = "bloquex">
+        <img id = "portada" src = "https://i.scdn.co/image/ab67616d0000b2736a035608384de03ffe9930a3">
+        <nav>
+            <h4>Popularidad<br> 20%</h4>
+            <h4>Energia <br> 34%</h4>
+        </nav>
+        <nav>
+            <h4>Ruido<br>11%</h4>
+            <h4>Emocion <br> 98%</h4>
+        </nav>
     </div>
+  <br>
   <div class = "album">
-    <img id = "portadaAlbum" src = "https://i.scdn.co/image/ab67616d0000b273961d278ff072bc251b22ae1c" alt = "Portada Fossora">
-    <h3>Fossora</h3>
-  </div>
-  <div class = "chart" id="chart"></div>
-  <div class = "boton">
-      <a href="/hueguito/index.html" target="_blank"><button>JUEGO</button></a>
+    <div class = "bloquex">
+        <img id = "portada" src = "https://i.scdn.co/image/ab67616d0000b2736a035608384de03ffe9930a3">
+        <nav>
+            <h4>Popularidad<br> 20%</h4>
+            <h4>Energia <br> 34%</h4>
+        </nav>
+        <nav>
+            <h4>Ruido<br>11%</h4>
+            <h4>Emocion <br> 98%</h4>
+        </nav>
+    </div>
+    <br>
+    <div class = "album">
+      <div class = "bloquex">
+          <img id = "portada" src = "https://i.scdn.co/image/ab67616d0000b2736a035608384de03ffe9930a3">
+          <nav>
+              <h4>Popularidad<br> 20%</h4>
+              <h4>Energia <br> 34%</h4>
+          </nav>
+          <nav>
+              <h4>Ruido<br>11%</h4>
+              <h4>Emocion <br> 98%</h4>
+          </nav>
+      </div>
+    <br>
+    <div class = "album">
+      <div class = "bloquex">
+          <img id = "portada" src = "https://i.scdn.co/image/ab67616d0000b2736a035608384de03ffe9930a3">
+          <nav>
+              <h4>Popularidad<br> 20%</h4>
+              <h4>Energia <br> 34%</h4>
+          </nav>
+          <nav>
+              <h4>Ruido<br>11%</h4>
+              <h4>Emocion <br> 98%</h4>
+          </nav>
+      </div>
+    <br>
   </div>
 
+  <!-- GRAFICO -->
+
+  <!-- JUEGO -->
+  <h1> JUEGO: Björk's Hidden Gems</h1>
+  <div class = "juego">
+    <div class="categoria" id="categoria"></div>
+      <div class="contenedor">
+        <div class="puntaje" id="puntaje"></div>
+        <div class="encabezado">
+          <audio class="repro" id="cancion" controls src="/hueguito/mp3/Like_someone_in_love.mp3" type="audio/mpeg"></audio>
+          <div class="numero" id="numero"></div>
+          <div class="pregunta" id="pregunta"></div>
+          <img src="#" class="imagen" id="imagen">
+        </div>
+        <div class = "botones">
+          <div class="btn" id="btn1" onclick="oprimir_btn(0)"></div>
+          <div class="btn" id="btn2" onclick="oprimir_btn(1)"></div>
+          <div class="btn" id="btn3" onclick="oprimir_btn(2)"></div>
+          <div class="btn" id="btn4" onclick="oprimir_btn(3)"></div>
+        </div>
+      <script src="/scripts/scriptJuego.js"></script>
+   </div>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
   <script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6"></script>
