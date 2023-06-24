@@ -1,116 +1,222 @@
 name,album,popularity,artist,genre,year,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,type,id,uri,track_href,analysis_url,duration_ms,time_signature
 
-Human Behaviour,Debut,40,Björk,experimental pop,1993,0.685,0.624,2,-15.31,1,0.0364,0.0382,0.0295,0.116,0.541,109.457,audio_features,0z1exf1SZhszjwPWPmXFub,spotify:track:0z1exf1SZhszjwPWPmXFub,https://api.spotify.com/v1/tracks/0z1exf1SZhszjwPWPmXFub,https://api.spotify.com/v1/audio-analysis/0z1exf1SZhszjwPWPmXFub,250933,4
+Human Behaviour,Debut,41,Björk,icelandic experimental,1993,0.685,0.624,2,-15.31,1,0.0364,0.0382,0.0295,0.116,0.541,109.457,audio_features,0z1exf1SZhszjwPWPmXFub,spotify:track:0z1exf1SZhszjwPWPmXFub,https://api.spotify.com/v1/tracks/0z1exf1SZhszjwPWPmXFub,https://api.spotify.com/v1/audio-analysis/0z1exf1SZhszjwPWPmXFub,250933,4
 
-Crying,Debut,38,Björk,icelandic pop,1993,0.651,0.662,4,-11.914,0,0.0307,0.00518,0.0149,0.523,0.709,116.204,audio_features,7teGZBxvYx1Jr4fHwB4Lwy,spotify:track:7teGZBxvYx1Jr4fHwB4Lwy,https://api.spotify.com/v1/tracks/7teGZBxvYx1Jr4fHwB4Lwy,https://api.spotify.com/v1/audio-analysis/7teGZBxvYx1Jr4fHwB4Lwy,292067,4
+Crying,Debut,39,Björk,experimental pop,1993,0.651,0.662,4,-11.914,0,0.0307,0.00518,0.0149,0.523,0.709,116.204,audio_features,7teGZBxvYx1Jr4fHwB4Lwy,spotify:track:7teGZBxvYx1Jr4fHwB4Lwy,https://api.spotify.com/v1/tracks/7teGZBxvYx1Jr4fHwB4Lwy,https://api.spotify.com/v1/audio-analysis/7teGZBxvYx1Jr4fHwB4Lwy,292067,4
 
-Venus As A Boy,Debut,41,Björk,experimental vocal,1993,0.296,0.375,1,-12.468,1,0.0429,0.0319,0.00964,0.0577,0.789,69.082,audio_features,4kVL555WlWlEkZuUAsbdq3,spotify:track:4kVL555WlWlEkZuUAsbdq3,https://api.spotify.com/v1/tracks/4kVL555WlWlEkZuUAsbdq3,https://api.spotify.com/v1/audio-analysis/4kVL555WlWlEkZuUAsbdq3,282667,4
+Venus As A Boy,Debut,41,Björk,experimental pop,1993,0.296,0.375,1,-12.468,1,0.0429,0.0319,0.00964,0.0577,0.789,69.082,audio_features,4kVL555WlWlEkZuUAsbdq3,spotify:track:4kVL555WlWlEkZuUAsbdq3,https://api.spotify.com/v1/tracks/4kVL555WlWlEkZuUAsbdq3,https://api.spotify.com/v1/audio-analysis/4kVL555WlWlEkZuUAsbdq3,282667,4
 
-There's More To Life Than This - Live At The Milk Bar Toilets,Debut,37,Björk,icelandic experimental,1993,0.73,0.485,7,-13.702,1,0.0367,0.0624,0.039,0.955,0.744,124.245,audio_features,2nf4E0oGbsmkl5B89OGoII,spotify:track:2nf4E0oGbsmkl5B89OGoII,https://api.spotify.com/v1/tracks/2nf4E0oGbsmkl5B89OGoII,https://api.spotify.com/v1/audio-analysis/2nf4E0oGbsmkl5B89OGoII,201707,4
+There's More To Life Than This - Live At The Milk Bar Toilets,Debut,37,Björk,metropopolis,1993,0.73,0.485,7,-13.702,1,0.0367,0.0624,0.039,0.955,0.744,124.245,audio_features,2nf4E0oGbsmkl5B89OGoII,spotify:track:2nf4E0oGbsmkl5B89OGoII,https://api.spotify.com/v1/tracks/2nf4E0oGbsmkl5B89OGoII,https://api.spotify.com/v1/audio-analysis/2nf4E0oGbsmkl5B89OGoII,201707,4
 
-Like Someone In Love,Debut,37,Björk,electronica,1993,0.376,0.143,7,-15.76,1,0.0362,0.961,5.09e-05,0.143,0.0765,97.942,audio_features,2xzfeMsbHYOVwMQnltpDja,spotify:track:2xzfeMsbHYOVwMQnltpDja,https://api.spotify.com/v1/tracks/2xzfeMsbHYOVwMQnltpDja,https://api.spotify.com/v1/audio-analysis/2xzfeMsbHYOVwMQnltpDja,273533,4
+Like Someone In Love,Debut,37,Björk,art pop,1993,0.376,0.143,7,-15.76,1,0.0362,0.961,5.09e-05,0.143,0.0765,97.942,audio_features,2xzfeMsbHYOVwMQnltpDja,spotify:track:2xzfeMsbHYOVwMQnltpDja,https://api.spotify.com/v1/tracks/2xzfeMsbHYOVwMQnltpDja,https://api.spotify.com/v1/audio-analysis/2xzfeMsbHYOVwMQnltpDja,273533,4
 
-Big Time Sensuality,Debut,39,Björk,art pop,1993,0.728,0.72,1,-12.949,0,0.0996,7.28e-05,0.017,0.167,0.564,118.588,audio_features,7rxGuFcyZZPFWq7lTEOB0c,spotify:track:7rxGuFcyZZPFWq7lTEOB0c,https://api.spotify.com/v1/tracks/7rxGuFcyZZPFWq7lTEOB0c,https://api.spotify.com/v1/audio-analysis/7rxGuFcyZZPFWq7lTEOB0c,236667,4
+Big Time Sensuality,Debut,40,Björk,electronica,1993,0.728,0.72,1,-12.949,0,0.0996,7.28e-05,0.017,0.167,0.564,118.588,audio_features,7rxGuFcyZZPFWq7lTEOB0c,spotify:track:7rxGuFcyZZPFWq7lTEOB0c,https://api.spotify.com/v1/tracks/7rxGuFcyZZPFWq7lTEOB0c,https://api.spotify.com/v1/audio-analysis/7rxGuFcyZZPFWq7lTEOB0c,236667,4
 
-One Day,Debut,36,Björk,experimental pop,1993,0.615,0.496,0,-14.056,1,0.0351,0.00497,0.00197,0.0832,0.209,105.177,audio_features,6xY2G2qO4gQWg0iqVaiP7k,spotify:track:6xY2G2qO4gQWg0iqVaiP7k,https://api.spotify.com/v1/tracks/6xY2G2qO4gQWg0iqVaiP7k,https://api.spotify.com/v1/audio-analysis/6xY2G2qO4gQWg0iqVaiP7k,322000,4
+One Day,Debut,36,Björk,experimental vocal,1993,0.615,0.496,0,-14.056,1,0.0351,0.00497,0.00197,0.0832,0.209,105.177,audio_features,6xY2G2qO4gQWg0iqVaiP7k,spotify:track:6xY2G2qO4gQWg0iqVaiP7k,https://api.spotify.com/v1/tracks/6xY2G2qO4gQWg0iqVaiP7k,https://api.spotify.com/v1/audio-analysis/6xY2G2qO4gQWg0iqVaiP7k,322000,4
 
 Aeroplane,Debut,34,Björk,metropopolis,1993,0.629,0.275,7,-14.904,1,0.0315,0.0938,0.000853,0.143,0.13,104.656,audio_features,2uRc2g1WIDWYTM0KqhKfj6,spotify:track:2uRc2g1WIDWYTM0KqhKfj6,https://api.spotify.com/v1/tracks/2uRc2g1WIDWYTM0KqhKfj6,https://api.spotify.com/v1/audio-analysis/2uRc2g1WIDWYTM0KqhKfj6,236493,4
 
 Come To Me,Debut,38,Björk,trip hop,1993,0.481,0.58,5,-14.273,1,0.0338,0.00225,3.08e-05,0.11,0.314,173.452,audio_features,3p0PeVSSet08Gp5MpvMTBd,spotify:track:3p0PeVSSet08Gp5MpvMTBd,https://api.spotify.com/v1/tracks/3p0PeVSSet08Gp5MpvMTBd,https://api.spotify.com/v1/audio-analysis/3p0PeVSSet08Gp5MpvMTBd,295573,4
 
-Violently Happy,Debut,36,Björk,electronica,1993,0.684,0.58,9,-15.098,0,0.0483,0.29,0.0073,0.117,0.251,120.329,audio_features,7HFbjG7R5WUCzqyZZItepN,spotify:track:7HFbjG7R5WUCzqyZZItepN,https://api.spotify.com/v1/tracks/7HFbjG7R5WUCzqyZZItepN,https://api.spotify.com/v1/audio-analysis/7HFbjG7R5WUCzqyZZItepN,299267,4
+Violently Happy,Debut,36,Björk,metropopolis,1993,0.684,0.58,9,-15.098,0,0.0483,0.29,0.0073,0.117,0.251,120.329,audio_features,7HFbjG7R5WUCzqyZZItepN,spotify:track:7HFbjG7R5WUCzqyZZItepN,https://api.spotify.com/v1/tracks/7HFbjG7R5WUCzqyZZItepN,https://api.spotify.com/v1/audio-analysis/7HFbjG7R5WUCzqyZZItepN,299267,4
 
-The Anchor Song,Debut,33,Björk,icelandic pop,1993,0.424,0.0294,0,-15.47,1,0.0688,0.936,1.1e-06,0.0619,0.371,174.128,audio_features,5QMiAdti0orCw5DhEiD8zc,spotify:track:5QMiAdti0orCw5DhEiD8zc,https://api.spotify.com/v1/tracks/5QMiAdti0orCw5DhEiD8zc,https://api.spotify.com/v1/audio-analysis/5QMiAdti0orCw5DhEiD8zc,211600,3
+The Anchor Song,Debut,33,Björk,experimental vocal,1993,0.424,0.0294,0,-15.47,1,0.0688,0.936,1.1e-06,0.0619,0.371,174.128,audio_features,5QMiAdti0orCw5DhEiD8zc,spotify:track:5QMiAdti0orCw5DhEiD8zc,https://api.spotify.com/v1/tracks/5QMiAdti0orCw5DhEiD8zc,https://api.spotify.com/v1/audio-analysis/5QMiAdti0orCw5DhEiD8zc,211600,3
 
-"Play Dead - Tim Simenon 7"" Remix",Debut,49,Björk,icelandic singer-songwriter,1993,0.504,0.487,10,-12.494,0,0.0287,0.000296,0.0833,0.117,0.332,77.341,audio_features,0Yf5QZuSwH3LUlzEWGdP1x,spotify:track:0Yf5QZuSwH3LUlzEWGdP1x,https://api.spotify.com/v1/tracks/0Yf5QZuSwH3LUlzEWGdP1x,https://api.spotify.com/v1/audio-analysis/0Yf5QZuSwH3LUlzEWGdP1x,236000,4
+"Play Dead - Tim Simenon 7"" Remix",Debut,49,Björk,icelandic experimental,1993,0.504,0.487,10,-12.494,0,0.0287,0.000296,0.0833,0.117,0.332,77.341,audio_features,0Yf5QZuSwH3LUlzEWGdP1x,spotify:track:0Yf5QZuSwH3LUlzEWGdP1x,https://api.spotify.com/v1/tracks/0Yf5QZuSwH3LUlzEWGdP1x,https://api.spotify.com/v1/audio-analysis/0Yf5QZuSwH3LUlzEWGdP1x,236000,4
 
-Army Of Me,Post,61,Björk,icelandic experimental,1995,0.461,0.692,6,-9.227,1,0.0337,0.00833,8.94e-05,0.292,0.525,172.246,audio_features,5zRuPOBoe38AjACFMsxkof,spotify:track:5zRuPOBoe38AjACFMsxkof,https://api.spotify.com/v1/tracks/5zRuPOBoe38AjACFMsxkof,https://api.spotify.com/v1/audio-analysis/5zRuPOBoe38AjACFMsxkof,234107,4
+Army Of Me,Post,61,Björk,art pop,1995,0.461,0.692,6,-9.227,1,0.0337,0.00833,8.94e-05,0.292,0.525,172.246,audio_features,5zRuPOBoe38AjACFMsxkof,spotify:track:5zRuPOBoe38AjACFMsxkof,https://api.spotify.com/v1/tracks/5zRuPOBoe38AjACFMsxkof,https://api.spotify.com/v1/audio-analysis/5zRuPOBoe38AjACFMsxkof,234107,4
 
-Hyper-ballad,Post,56,Björk,metropopolis,1995,0.528,0.439,5,-13.036,0,0.033,0.0254,0.0015,0.378,0.0361,134.964,audio_features,3jIzAeh7fhe70umAJrY3Fk,spotify:track:3jIzAeh7fhe70umAJrY3Fk,https://api.spotify.com/v1/tracks/3jIzAeh7fhe70umAJrY3Fk,https://api.spotify.com/v1/audio-analysis/3jIzAeh7fhe70umAJrY3Fk,321533,4
+Hyper-ballad,Post,56,Björk,permanent wave,1995,0.528,0.439,5,-13.036,0,0.033,0.0254,0.0015,0.378,0.0361,134.964,audio_features,3jIzAeh7fhe70umAJrY3Fk,spotify:track:3jIzAeh7fhe70umAJrY3Fk,https://api.spotify.com/v1/tracks/3jIzAeh7fhe70umAJrY3Fk,https://api.spotify.com/v1/audio-analysis/3jIzAeh7fhe70umAJrY3Fk,321533,4
 
-The Modern Things,Post,42,Björk,icelandic pop,1995,0.257,0.388,10,-13.544,1,0.0555,0.238,0,0.261,0.357,66.974,audio_features,75VaR01CuZD1TOePotCu16,spotify:track:75VaR01CuZD1TOePotCu16,https://api.spotify.com/v1/tracks/75VaR01CuZD1TOePotCu16,https://api.spotify.com/v1/audio-analysis/75VaR01CuZD1TOePotCu16,250027,5
+The Modern Things,Post,42,Björk,permanent wave,1995,0.257,0.388,10,-13.544,1,0.0555,0.238,0,0.261,0.357,66.974,audio_features,75VaR01CuZD1TOePotCu16,spotify:track:75VaR01CuZD1TOePotCu16,https://api.spotify.com/v1/tracks/75VaR01CuZD1TOePotCu16,https://api.spotify.com/v1/audio-analysis/75VaR01CuZD1TOePotCu16,250027,5
 
-It's Oh So Quiet,Post,59,Björk,icelandic pop,1995,0.461,0.129,3,-14.189,1,0.0565,0.652,0,0.07,0.246,129.19,audio_features,3CMVjlbvNJMHDfYPX7xCpi,spotify:track:3CMVjlbvNJMHDfYPX7xCpi,https://api.spotify.com/v1/tracks/3CMVjlbvNJMHDfYPX7xCpi,https://api.spotify.com/v1/audio-analysis/3CMVjlbvNJMHDfYPX7xCpi,218733,4
+It's Oh So Quiet,Post,60,Björk,experimental vocal,1995,0.461,0.129,3,-14.189,1,0.0565,0.652,0,0.07,0.246,129.19,audio_features,3CMVjlbvNJMHDfYPX7xCpi,spotify:track:3CMVjlbvNJMHDfYPX7xCpi,https://api.spotify.com/v1/tracks/3CMVjlbvNJMHDfYPX7xCpi,https://api.spotify.com/v1/audio-analysis/3CMVjlbvNJMHDfYPX7xCpi,218733,4
 
-Enjoy,Post,46,Björk,art pop,1995,0.544,0.879,2,-10.72,1,0.0492,0.00169,0.759,0.129,0.461,84.207,audio_features,28GJnnbJ7fOKi2YBqlxWb9,spotify:track:28GJnnbJ7fOKi2YBqlxWb9,https://api.spotify.com/v1/tracks/28GJnnbJ7fOKi2YBqlxWb9,https://api.spotify.com/v1/audio-analysis/28GJnnbJ7fOKi2YBqlxWb9,237000,4
+Enjoy,Post,46,Björk,metropopolis,1995,0.544,0.879,2,-10.72,1,0.0492,0.00169,0.759,0.129,0.461,84.207,audio_features,28GJnnbJ7fOKi2YBqlxWb9,spotify:track:28GJnnbJ7fOKi2YBqlxWb9,https://api.spotify.com/v1/tracks/28GJnnbJ7fOKi2YBqlxWb9,https://api.spotify.com/v1/audio-analysis/28GJnnbJ7fOKi2YBqlxWb9,237000,4
 
-You've Been Flirting Again,Post,40,Björk,metropopolis,1995,0.17,0.0492,5,-21.058,1,0.0413,0.948,0.000365,0.121,0.181,106.279,audio_features,4RxIRjesqQtYOyRVAQ2NEZ,spotify:track:4RxIRjesqQtYOyRVAQ2NEZ,https://api.spotify.com/v1/tracks/4RxIRjesqQtYOyRVAQ2NEZ,https://api.spotify.com/v1/audio-analysis/4RxIRjesqQtYOyRVAQ2NEZ,149773,3
+You've Been Flirting Again,Post,41,Björk,metropopolis,1995,0.17,0.0492,5,-21.058,1,0.0413,0.948,0.000365,0.121,0.181,106.279,audio_features,4RxIRjesqQtYOyRVAQ2NEZ,spotify:track:4RxIRjesqQtYOyRVAQ2NEZ,https://api.spotify.com/v1/tracks/4RxIRjesqQtYOyRVAQ2NEZ,https://api.spotify.com/v1/audio-analysis/4RxIRjesqQtYOyRVAQ2NEZ,149773,3
 
-Isobel,Post,47,Björk,electronica,1995,0.593,0.565,9,-11.235,1,0.0298,0.000701,0.332,0.113,0.194,100.005,audio_features,1qyD5xpCI53VtITnxwB5Xn,spotify:track:1qyD5xpCI53VtITnxwB5Xn,https://api.spotify.com/v1/tracks/1qyD5xpCI53VtITnxwB5Xn,https://api.spotify.com/v1/audio-analysis/1qyD5xpCI53VtITnxwB5Xn,347027,4
+Isobel,Post,47,Björk,icelandic pop,1995,0.593,0.565,9,-11.235,1,0.0298,0.000701,0.332,0.113,0.194,100.005,audio_features,1qyD5xpCI53VtITnxwB5Xn,spotify:track:1qyD5xpCI53VtITnxwB5Xn,https://api.spotify.com/v1/tracks/1qyD5xpCI53VtITnxwB5Xn,https://api.spotify.com/v1/audio-analysis/1qyD5xpCI53VtITnxwB5Xn,347027,4
 
-Possibly Maybe,Post,48,Björk,electronica,1995,0.384,0.135,11,-17.176,1,0.0336,0.777,0.00223,0.206,0.179,57.139,audio_features,1F4JhiiFTGgga9tC5UuN5v,spotify:track:1F4JhiiFTGgga9tC5UuN5v,https://api.spotify.com/v1/tracks/1F4JhiiFTGgga9tC5UuN5v,https://api.spotify.com/v1/audio-analysis/1F4JhiiFTGgga9tC5UuN5v,306773,4
+Possibly Maybe,Post,48,Björk,experimental vocal,1995,0.384,0.135,11,-17.176,1,0.0336,0.777,0.00223,0.206,0.179,57.139,audio_features,1F4JhiiFTGgga9tC5UuN5v,spotify:track:1F4JhiiFTGgga9tC5UuN5v,https://api.spotify.com/v1/tracks/1F4JhiiFTGgga9tC5UuN5v,https://api.spotify.com/v1/audio-analysis/1F4JhiiFTGgga9tC5UuN5v,306773,4
 
-I Miss You,Post,43,Björk,art pop,1995,0.636,0.765,2,-10.658,0,0.0385,0.0237,0.462,0.0201,0.111,120.93,audio_features,5L18d6jJ94EYTu1FG1peY0,spotify:track:5L18d6jJ94EYTu1FG1peY0,https://api.spotify.com/v1/tracks/5L18d6jJ94EYTu1FG1peY0,https://api.spotify.com/v1/audio-analysis/5L18d6jJ94EYTu1FG1peY0,243800,4
+I Miss You,Post,44,Björk,trip hop,1995,0.636,0.765,2,-10.658,0,0.0385,0.0237,0.462,0.0201,0.111,120.93,audio_features,5L18d6jJ94EYTu1FG1peY0,spotify:track:5L18d6jJ94EYTu1FG1peY0,https://api.spotify.com/v1/tracks/5L18d6jJ94EYTu1FG1peY0,https://api.spotify.com/v1/audio-analysis/5L18d6jJ94EYTu1FG1peY0,243800,4
 
-Cover Me,Post,38,Björk,permanent wave,1995,0.349,0.296,4,-22.508,0,0.0431,0.938,0.677,0.632,0.292,86.588,audio_features,0eBrZ0Wld90mv6Eln69X42,spotify:track:0eBrZ0Wld90mv6Eln69X42,https://api.spotify.com/v1/tracks/0eBrZ0Wld90mv6Eln69X42,https://api.spotify.com/v1/audio-analysis/0eBrZ0Wld90mv6Eln69X42,126227,4
+Cover Me,Post,38,Björk,icelandic experimental,1995,0.349,0.296,4,-22.508,0,0.0431,0.938,0.677,0.632,0.292,86.588,audio_features,0eBrZ0Wld90mv6Eln69X42,spotify:track:0eBrZ0Wld90mv6Eln69X42,https://api.spotify.com/v1/tracks/0eBrZ0Wld90mv6Eln69X42,https://api.spotify.com/v1/audio-analysis/0eBrZ0Wld90mv6Eln69X42,126227,4
 
-Headphones,Post,38,Björk,art pop,1995,0.497,0.0295,11,-28.88,0,0.0404,0.673,0.028,0.102,0.0777,170.216,audio_features,0tlJhVt7eaFvPn9zIwIBdO,spotify:track:0tlJhVt7eaFvPn9zIwIBdO,https://api.spotify.com/v1/tracks/0tlJhVt7eaFvPn9zIwIBdO,https://api.spotify.com/v1/audio-analysis/0tlJhVt7eaFvPn9zIwIBdO,340373,5
+Headphones,Post,39,Björk,experimental vocal,1995,0.497,0.0295,11,-28.88,0,0.0404,0.673,0.028,0.102,0.0777,170.216,audio_features,0tlJhVt7eaFvPn9zIwIBdO,spotify:track:0tlJhVt7eaFvPn9zIwIBdO,https://api.spotify.com/v1/tracks/0tlJhVt7eaFvPn9zIwIBdO,https://api.spotify.com/v1/audio-analysis/0tlJhVt7eaFvPn9zIwIBdO,340373,5
 
-Hidden Place,Vespertine,49,Björk,metropopolis,2001,0.454,0.787,9,-10.362,0,0.177,0.0514,0.00391,0.112,0.432,149.873,audio_features,4c6LgotpKGB791EsNeu9gr,spotify:track:4c6LgotpKGB791EsNeu9gr,https://api.spotify.com/v1/tracks/4c6LgotpKGB791EsNeu9gr,https://api.spotify.com/v1/audio-analysis/4c6LgotpKGB791EsNeu9gr,329360,4
+Hunter,Homogenic,51,Björk,icelandic singer-songwriter,1997,0.323,0.667,7,-10.342,1,0.0895,0.145,0.0487,0.0867,0.183,79.579,audio_features,0zQnCy0NCcBmQcsl2PBNE3,spotify:track:0zQnCy0NCcBmQcsl2PBNE3,https://api.spotify.com/v1/tracks/0zQnCy0NCcBmQcsl2PBNE3,https://api.spotify.com/v1/audio-analysis/0zQnCy0NCcBmQcsl2PBNE3,255267,4
 
-Cocoon,Vespertine,46,Björk,experimental pop,2001,0.787,0.373,1,-14.895,1,0.0519,0.648,0.137,0.108,0.117,127.87,audio_features,46qr02ktTNzOwJAqiQg8gv,spotify:track:46qr02ktTNzOwJAqiQg8gv,https://api.spotify.com/v1/tracks/46qr02ktTNzOwJAqiQg8gv,https://api.spotify.com/v1/audio-analysis/46qr02ktTNzOwJAqiQg8gv,268107,4
+Jóga,Homogenic,54,Björk,metropopolis,1997,0.226,0.699,1,-6.327,0,0.065,0.403,5.65e-05,0.0797,0.228,145.852,audio_features,18NehrWLUFK7NPH522YQMQ,spotify:track:18NehrWLUFK7NPH522YQMQ,https://api.spotify.com/v1/tracks/18NehrWLUFK7NPH522YQMQ,https://api.spotify.com/v1/audio-analysis/18NehrWLUFK7NPH522YQMQ,305360,4
 
-It's Not Up To You,Vespertine,46,Björk,trip hop,2001,0.556,0.439,1,-12.404,0,0.0566,0.583,0.000236,0.0589,0.316,79.93,audio_features,5BQ7QRKTkw2qhN2bq0rZW7,spotify:track:5BQ7QRKTkw2qhN2bq0rZW7,https://api.spotify.com/v1/tracks/5BQ7QRKTkw2qhN2bq0rZW7,https://api.spotify.com/v1/audio-analysis/5BQ7QRKTkw2qhN2bq0rZW7,308960,4
+Unravel,Homogenic,48,Björk,icelandic experimental,1997,0.209,0.387,7,-9.818,1,0.0331,0.784,0,0.157,0.051,82.481,audio_features,7l3AN8XtVIdfc0yxmoQ1Xg,spotify:track:7l3AN8XtVIdfc0yxmoQ1Xg,https://api.spotify.com/v1/tracks/7l3AN8XtVIdfc0yxmoQ1Xg,https://api.spotify.com/v1/audio-analysis/7l3AN8XtVIdfc0yxmoQ1Xg,201800,3
+
+Bachelorette,Homogenic,52,Björk,icelandic singer-songwriter,1997,0.46,0.912,0,-4.353,0,0.0694,0.0556,8.52e-06,0.105,0.34,96.957,audio_features,30j9ij28SJum1lp740MsHS,spotify:track:30j9ij28SJum1lp740MsHS,https://api.spotify.com/v1/tracks/30j9ij28SJum1lp740MsHS,https://api.spotify.com/v1/audio-analysis/30j9ij28SJum1lp740MsHS,312667,4
+
+All Neon Like,Homogenic,41,Björk,experimental vocal,1997,0.538,0.52,0,-10.178,0,0.0339,0.587,0.0103,0.0678,0.245,152.112,audio_features,3hVisMsgv2FPCcJgU5xheK,spotify:track:3hVisMsgv2FPCcJgU5xheK,https://api.spotify.com/v1/tracks/3hVisMsgv2FPCcJgU5xheK,https://api.spotify.com/v1/audio-analysis/3hVisMsgv2FPCcJgU5xheK,353267,4
+
+5 Years,Homogenic,41,Björk,art pop,1997,0.453,0.898,5,-5.974,1,0.371,0.159,0.0184,0.284,0.494,83.007,audio_features,4xIDL0NQRTpyqBkK0Mprzs,spotify:track:4xIDL0NQRTpyqBkK0Mprzs,https://api.spotify.com/v1/tracks/4xIDL0NQRTpyqBkK0Mprzs,https://api.spotify.com/v1/audio-analysis/4xIDL0NQRTpyqBkK0Mprzs,269067,4
+
+Immature - Mark Bell's Version,Homogenic,42,Björk,icelandic experimental,1997,0.413,0.768,6,-7.217,0,0.0412,0.368,0.0021,0.0977,0.105,187.965,audio_features,07GGbKqM9rBCv8sGFwpp3Q,spotify:track:07GGbKqM9rBCv8sGFwpp3Q,https://api.spotify.com/v1/tracks/07GGbKqM9rBCv8sGFwpp3Q,https://api.spotify.com/v1/audio-analysis/07GGbKqM9rBCv8sGFwpp3Q,186267,4
+
+Alarm Call,Homogenic,41,Björk,icelandic experimental,1997,0.654,0.878,5,-5.115,0,0.0629,0.27,2.14e-06,0.0882,0.644,97.065,audio_features,1OHaVMTQJw8qvDMYEybomF,spotify:track:1OHaVMTQJw8qvDMYEybomF,https://api.spotify.com/v1/tracks/1OHaVMTQJw8qvDMYEybomF,https://api.spotify.com/v1/audio-analysis/1OHaVMTQJw8qvDMYEybomF,259773,4
+
+Pluto,Homogenic,47,Björk,icelandic experimental,1997,0.62,0.829,8,-4.575,1,0.186,0.00271,0.402,0.0807,0.299,148.015,audio_features,6aJIbT3rh6jF9xqM2hBLel,spotify:track:6aJIbT3rh6jF9xqM2hBLel,https://api.spotify.com/v1/tracks/6aJIbT3rh6jF9xqM2hBLel,https://api.spotify.com/v1/audio-analysis/6aJIbT3rh6jF9xqM2hBLel,199293,4
+
+All Is Full Of Love - Howie's Version,Homogenic,41,Björk,icelandic pop,1997,0.143,0.307,11,-9.406,1,0.0372,0.0637,3.29e-05,0.122,0.0362,139.082,audio_features,20s1p3zAFfOXtcsdrhzY6U,spotify:track:20s1p3zAFfOXtcsdrhzY6U,https://api.spotify.com/v1/tracks/20s1p3zAFfOXtcsdrhzY6U,https://api.spotify.com/v1/audio-analysis/20s1p3zAFfOXtcsdrhzY6U,273107,5
+
+Hidden Place,Vespertine,50,Björk,trip hop,2001,0.454,0.787,9,-10.362,0,0.177,0.0514,0.00391,0.112,0.432,149.873,audio_features,4c6LgotpKGB791EsNeu9gr,spotify:track:4c6LgotpKGB791EsNeu9gr,https://api.spotify.com/v1/tracks/4c6LgotpKGB791EsNeu9gr,https://api.spotify.com/v1/audio-analysis/4c6LgotpKGB791EsNeu9gr,329360,4
+
+Cocoon,Vespertine,47,Björk,metropopolis,2001,0.787,0.373,1,-14.895,1,0.0519,0.648,0.137,0.108,0.117,127.87,audio_features,46qr02ktTNzOwJAqiQg8gv,spotify:track:46qr02ktTNzOwJAqiQg8gv,https://api.spotify.com/v1/tracks/46qr02ktTNzOwJAqiQg8gv,https://api.spotify.com/v1/audio-analysis/46qr02ktTNzOwJAqiQg8gv,268107,4
+
+It's Not Up To You,Vespertine,46,Björk,experimental vocal,2001,0.556,0.439,1,-12.404,0,0.0566,0.583,0.000236,0.0589,0.316,79.93,audio_features,5BQ7QRKTkw2qhN2bq0rZW7,spotify:track:5BQ7QRKTkw2qhN2bq0rZW7,https://api.spotify.com/v1/tracks/5BQ7QRKTkw2qhN2bq0rZW7,https://api.spotify.com/v1/audio-analysis/5BQ7QRKTkw2qhN2bq0rZW7,308960,4
 
 Undo,Vespertine,43,Björk,metropopolis,2001,0.351,0.365,5,-11.891,1,0.0365,0.779,0.00798,0.114,0.0581,115.909,audio_features,0lhuD47gUUYuBNnYCrVGh9,spotify:track:0lhuD47gUUYuBNnYCrVGh9,https://api.spotify.com/v1/tracks/0lhuD47gUUYuBNnYCrVGh9,https://api.spotify.com/v1/audio-analysis/0lhuD47gUUYuBNnYCrVGh9,338400,4
 
-Pagan Poetry,Vespertine,52,Björk,icelandic experimental,2001,0.52,0.458,9,-8.234,1,0.0297,0.509,8.04e-06,0.086,0.169,131.968,audio_features,3Te7GWFEecCGPpkWVTjJ1h,spotify:track:3Te7GWFEecCGPpkWVTjJ1h,https://api.spotify.com/v1/tracks/3Te7GWFEecCGPpkWVTjJ1h,https://api.spotify.com/v1/audio-analysis/3Te7GWFEecCGPpkWVTjJ1h,314867,4
+Pagan Poetry,Vespertine,52,Björk,icelandic pop,2001,0.52,0.458,9,-8.234,1,0.0297,0.509,8.04e-06,0.086,0.169,131.968,audio_features,3Te7GWFEecCGPpkWVTjJ1h,spotify:track:3Te7GWFEecCGPpkWVTjJ1h,https://api.spotify.com/v1/tracks/3Te7GWFEecCGPpkWVTjJ1h,https://api.spotify.com/v1/audio-analysis/3Te7GWFEecCGPpkWVTjJ1h,314867,4
 
-Frosti,Vespertine,46,Björk,icelandic singer-songwriter,2001,0.44,0.355,6,-12.814,1,0.0348,0.641,0.00495,0.302,0.153,147.996,audio_features,7pLQIIweYDsmfwgf5xaGrq,spotify:track:7pLQIIweYDsmfwgf5xaGrq,https://api.spotify.com/v1/tracks/7pLQIIweYDsmfwgf5xaGrq,https://api.spotify.com/v1/audio-analysis/7pLQIIweYDsmfwgf5xaGrq,101507,4
+Frosti,Vespertine,47,Björk,experimental pop,2001,0.44,0.355,6,-12.814,1,0.0348,0.641,0.00495,0.302,0.153,147.996,audio_features,7pLQIIweYDsmfwgf5xaGrq,spotify:track:7pLQIIweYDsmfwgf5xaGrq,https://api.spotify.com/v1/tracks/7pLQIIweYDsmfwgf5xaGrq,https://api.spotify.com/v1/audio-analysis/7pLQIIweYDsmfwgf5xaGrq,101507,4
 
-Aurora,Vespertine,42,Björk,icelandic pop,2001,0.569,0.577,9,-8.349,0,0.0344,0.376,2.84e-05,0.0803,0.255,119.994,audio_features,6yIu9fRhK5VT7NulG70Sh4,spotify:track:6yIu9fRhK5VT7NulG70Sh4,https://api.spotify.com/v1/tracks/6yIu9fRhK5VT7NulG70Sh4,https://api.spotify.com/v1/audio-analysis/6yIu9fRhK5VT7NulG70Sh4,279227,4
+Aurora,Vespertine,42,Björk,electronica,2001,0.569,0.577,9,-8.349,0,0.0344,0.376,2.84e-05,0.0803,0.255,119.994,audio_features,6yIu9fRhK5VT7NulG70Sh4,spotify:track:6yIu9fRhK5VT7NulG70Sh4,https://api.spotify.com/v1/tracks/6yIu9fRhK5VT7NulG70Sh4,https://api.spotify.com/v1/audio-analysis/6yIu9fRhK5VT7NulG70Sh4,279227,4
 
-An Echo A Stain,Vespertine,39,Björk,permanent wave,2001,0.532,0.512,2,-13.318,1,0.0609,0.585,0.175,0.0973,0.0767,127.954,audio_features,1oEHZmIK6pkg3m1lrglkhT,spotify:track:1oEHZmIK6pkg3m1lrglkhT,https://api.spotify.com/v1/tracks/1oEHZmIK6pkg3m1lrglkhT,https://api.spotify.com/v1/audio-analysis/1oEHZmIK6pkg3m1lrglkhT,244467,4
+An Echo A Stain,Vespertine,39,Björk,experimental vocal,2001,0.532,0.512,2,-13.318,1,0.0609,0.585,0.175,0.0973,0.0767,127.954,audio_features,1oEHZmIK6pkg3m1lrglkhT,spotify:track:1oEHZmIK6pkg3m1lrglkhT,https://api.spotify.com/v1/tracks/1oEHZmIK6pkg3m1lrglkhT,https://api.spotify.com/v1/audio-analysis/1oEHZmIK6pkg3m1lrglkhT,244467,4
 
 Sun In My Mouth,Vespertine,42,Björk,icelandic experimental,2001,0.215,0.281,10,-11.011,0,0.0295,0.745,1.16e-05,0.0793,0.159,98.369,audio_features,3EjTqXJF3xuaEYplpcPQYw,spotify:track:3EjTqXJF3xuaEYplpcPQYw,https://api.spotify.com/v1/tracks/3EjTqXJF3xuaEYplpcPQYw,https://api.spotify.com/v1/audio-analysis/3EjTqXJF3xuaEYplpcPQYw,160200,4
 
-Heirloom,Vespertine,40,Björk,trip hop,2001,0.577,0.373,7,-11.618,0,0.0475,0.276,0.00565,0.0786,0.504,179.796,audio_features,7gEek3CpEPj4mMTzZP1Y1z,spotify:track:7gEek3CpEPj4mMTzZP1Y1z,https://api.spotify.com/v1/tracks/7gEek3CpEPj4mMTzZP1Y1z,https://api.spotify.com/v1/audio-analysis/7gEek3CpEPj4mMTzZP1Y1z,312040,4
+Heirloom,Vespertine,40,Björk,experimental vocal,2001,0.577,0.373,7,-11.618,0,0.0475,0.276,0.00565,0.0786,0.504,179.796,audio_features,7gEek3CpEPj4mMTzZP1Y1z,spotify:track:7gEek3CpEPj4mMTzZP1Y1z,https://api.spotify.com/v1/tracks/7gEek3CpEPj4mMTzZP1Y1z,https://api.spotify.com/v1/audio-analysis/7gEek3CpEPj4mMTzZP1Y1z,312040,4
 
-Harm Of Will,Vespertine,38,Björk,permanent wave,2001,0.15,0.143,10,-16.217,0,0.0338,0.969,0.00493,0.0865,0.073,83.646,audio_features,5qYM1ZFSyzbune3bC9xUyK,spotify:track:5qYM1ZFSyzbune3bC9xUyK,https://api.spotify.com/v1/tracks/5qYM1ZFSyzbune3bC9xUyK,https://api.spotify.com/v1/audio-analysis/5qYM1ZFSyzbune3bC9xUyK,276960,4
+Harm Of Will,Vespertine,38,Björk,metropopolis,2001,0.15,0.143,10,-16.217,0,0.0338,0.969,0.00493,0.0865,0.073,83.646,audio_features,5qYM1ZFSyzbune3bC9xUyK,spotify:track:5qYM1ZFSyzbune3bC9xUyK,https://api.spotify.com/v1/tracks/5qYM1ZFSyzbune3bC9xUyK,https://api.spotify.com/v1/audio-analysis/5qYM1ZFSyzbune3bC9xUyK,276960,4
 
-Unison,Vespertine,44,Björk,experimental pop,2001,0.52,0.508,5,-10.986,1,0.0489,0.392,0.0424,0.203,0.207,147.935,audio_features,3uy1oSp8SAhV5WJfW35oov,spotify:track:3uy1oSp8SAhV5WJfW35oov,https://api.spotify.com/v1/tracks/3uy1oSp8SAhV5WJfW35oov,https://api.spotify.com/v1/audio-analysis/3uy1oSp8SAhV5WJfW35oov,407600,4
+Unison,Vespertine,44,Björk,icelandic singer-songwriter,2001,0.52,0.508,5,-10.986,1,0.0489,0.392,0.0424,0.203,0.207,147.935,audio_features,3uy1oSp8SAhV5WJfW35oov,spotify:track:3uy1oSp8SAhV5WJfW35oov,https://api.spotify.com/v1/tracks/3uy1oSp8SAhV5WJfW35oov,https://api.spotify.com/v1/audio-analysis/3uy1oSp8SAhV5WJfW35oov,407600,4
 
-Stonemilker,Vulnicura,42,Björk,icelandic pop,2015,0.133,0.257,2,-13.545,1,0.0317,0.12,0.00608,0.1,0.0501,82.163,audio_features,7mg5wIB2b6D5K5mOhALKxs,spotify:track:7mg5wIB2b6D5K5mOhALKxs,https://api.spotify.com/v1/tracks/7mg5wIB2b6D5K5mOhALKxs,https://api.spotify.com/v1/audio-analysis/7mg5wIB2b6D5K5mOhALKxs,409320,5
+Pleasure Is All Mine,Medúlla,35,Björk,trip hop,2004,0.22,0.312,5,-13.694,0,0.0386,0.918,0.000813,0.0744,0.037,126.318,audio_features,1zgrxOZxhGmpK4ObCVJRAG,spotify:track:1zgrxOZxhGmpK4ObCVJRAG,https://api.spotify.com/v1/tracks/1zgrxOZxhGmpK4ObCVJRAG,https://api.spotify.com/v1/audio-analysis/1zgrxOZxhGmpK4ObCVJRAG,206773,3
 
-Lionsong,Vulnicura,38,Björk,metropopolis,2015,0.291,0.296,7,-13.292,0,0.0472,0.548,1.25e-06,0.173,0.0634,142.708,audio_features,2ZW9hbML7eNemHLsak7zjF,spotify:track:2ZW9hbML7eNemHLsak7zjF,https://api.spotify.com/v1/tracks/2ZW9hbML7eNemHLsak7zjF,https://api.spotify.com/v1/audio-analysis/2ZW9hbML7eNemHLsak7zjF,368693,4
+Show Me Forgiveness,Medúlla,29,Björk,icelandic experimental,2004,0.508,0.0255,2,-19.629,1,0.0469,0.906,0,0.185,0.541,129.839,audio_features,0MelkTJRCIIFGITYlsvajz,spotify:track:0MelkTJRCIIFGITYlsvajz,https://api.spotify.com/v1/tracks/0MelkTJRCIIFGITYlsvajz,https://api.spotify.com/v1/audio-analysis/0MelkTJRCIIFGITYlsvajz,83827,4
 
-History Of Touches,Vulnicura,37,Björk,icelandic singer-songwriter,2015,0.255,0.143,1,-15.36,1,0.031,0.797,0,0.18,0.136,165.406,audio_features,5VrL9zKmi3P2IwtnvP5yfU,spotify:track:5VrL9zKmi3P2IwtnvP5yfU,https://api.spotify.com/v1/tracks/5VrL9zKmi3P2IwtnvP5yfU,https://api.spotify.com/v1/audio-analysis/5VrL9zKmi3P2IwtnvP5yfU,180200,4
+Where Is The Line,Medúlla,34,Björk,experimental vocal,2004,0.403,0.693,2,-9.472,1,0.212,0.559,0.0134,0.185,0.25,80.036,audio_features,6b7MeZUEaRBLix7nfl3aRQ,spotify:track:6b7MeZUEaRBLix7nfl3aRQ,https://api.spotify.com/v1/tracks/6b7MeZUEaRBLix7nfl3aRQ,https://api.spotify.com/v1/audio-analysis/6b7MeZUEaRBLix7nfl3aRQ,281200,4
 
-Black Lake,Vulnicura,36,Björk,electronica,2015,0.241,0.219,3,-15.15,0,0.0362,0.473,0.00081,0.0823,0.0364,135.914,audio_features,7McqTkJc3laznwCoQXKxFe,spotify:track:7McqTkJc3laznwCoQXKxFe,https://api.spotify.com/v1/tracks/7McqTkJc3laznwCoQXKxFe,https://api.spotify.com/v1/audio-analysis/7McqTkJc3laznwCoQXKxFe,608760,4
+Vokuro,Medúlla,30,Björk,experimental pop,2004,0.311,0.0845,11,-15.842,0,0.0359,0.952,0,0.103,0.197,129.85,audio_features,588enFce7wlR7Es4a6tgMF,spotify:track:588enFce7wlR7Es4a6tgMF,https://api.spotify.com/v1/tracks/588enFce7wlR7Es4a6tgMF,https://api.spotify.com/v1/audio-analysis/588enFce7wlR7Es4a6tgMF,194040,4
 
-Family,Vulnicura,32,Björk,electronica,2015,0.175,0.286,8,-13.01,0,0.0379,0.0892,0.000266,0.112,0.0391,78.215,audio_features,3dtvX7d6H6mcGMQoEE9jAP,spotify:track:3dtvX7d6H6mcGMQoEE9jAP,https://api.spotify.com/v1/tracks/3dtvX7d6H6mcGMQoEE9jAP,https://api.spotify.com/v1/audio-analysis/3dtvX7d6H6mcGMQoEE9jAP,482480,3
+Oll Birtan,Medúlla,27,Björk,electronica,2004,0.33,0.0842,7,-12.636,0,0.052,0.889,0,0.341,0.549,72.525,audio_features,6dNfyzU6tQ9ujJuHYpIGF2,spotify:track:6dNfyzU6tQ9ujJuHYpIGF2,https://api.spotify.com/v1/tracks/6dNfyzU6tQ9ujJuHYpIGF2,https://api.spotify.com/v1/audio-analysis/6dNfyzU6tQ9ujJuHYpIGF2,112080,4
 
-Notget,Vulnicura,34,Björk,trip hop,2015,0.309,0.573,9,-12.629,0,0.36,0.0504,0.000729,0.088,0.218,178.769,audio_features,2rUOu6JSds2ewDskKCzVBj,spotify:track:2rUOu6JSds2ewDskKCzVBj,https://api.spotify.com/v1/tracks/2rUOu6JSds2ewDskKCzVBj,https://api.spotify.com/v1/audio-analysis/2rUOu6JSds2ewDskKCzVBj,386560,4
+"Who Is It (Carry My Joy On The Left, Carry My Pain On The Right)",Medúlla,34,Björk,permanent wave,2004,0.528,0.735,8,-7.462,1,0.282,0.231,1.9e-05,0.33,0.131,92.567,audio_features,0LyiKRBtKkIaTZKXBcDyb3,spotify:track:0LyiKRBtKkIaTZKXBcDyb3,https://api.spotify.com/v1/tracks/0LyiKRBtKkIaTZKXBcDyb3,https://api.spotify.com/v1/audio-analysis/0LyiKRBtKkIaTZKXBcDyb3,237347,4
 
-Atom Dance,Vulnicura,31,Björk,icelandic experimental,2015,0.545,0.41,5,-10.062,1,0.0525,0.59,0.00169,0.362,0.355,136.0,audio_features,0gAtZWCCoj1j2NA45nKjYP,spotify:track:0gAtZWCCoj1j2NA45nKjYP,https://api.spotify.com/v1/tracks/0gAtZWCCoj1j2NA45nKjYP,https://api.spotify.com/v1/audio-analysis/0gAtZWCCoj1j2NA45nKjYP,490680,5
+Submarine,Medúlla,28,Björk,icelandic experimental,2004,0.218,0.148,10,-13.466,1,0.0305,0.918,4.42e-06,0.126,0.0371,90.252,audio_features,2fJdzOCzX2dCr63nd7PB8H,spotify:track:2fJdzOCzX2dCr63nd7PB8H,https://api.spotify.com/v1/tracks/2fJdzOCzX2dCr63nd7PB8H,https://api.spotify.com/v1/audio-analysis/2fJdzOCzX2dCr63nd7PB8H,193653,5
 
-Mouth Mantra,Vulnicura,30,Björk,icelandic pop,2015,0.271,0.569,5,-8.174,0,0.0544,0.0598,0.00587,0.106,0.133,76.6,audio_features,40WNoYqz28qh5n7t1M3Jf3,spotify:track:40WNoYqz28qh5n7t1M3Jf3,https://api.spotify.com/v1/tracks/40WNoYqz28qh5n7t1M3Jf3,https://api.spotify.com/v1/audio-analysis/40WNoYqz28qh5n7t1M3Jf3,369533,4
+Desired Constellation,Medúlla,32,Björk,experimental pop,2004,0.279,0.0853,8,-16.934,0,0.0361,0.851,0.000105,0.105,0.106,109.428,audio_features,524eqsMX5luvtynZxCJll8,spotify:track:524eqsMX5luvtynZxCJll8,https://api.spotify.com/v1/tracks/524eqsMX5luvtynZxCJll8,https://api.spotify.com/v1/audio-analysis/524eqsMX5luvtynZxCJll8,295533,3
 
-Quicksand,Vulnicura,31,Björk,art pop,2015,0.604,0.787,2,-7.453,1,0.0444,0.00343,0.00118,0.0883,0.318,149.982,audio_features,1y36epywSYJG3IcaxXWI5b,spotify:track:1y36epywSYJG3IcaxXWI5b,https://api.spotify.com/v1/tracks/1y36epywSYJG3IcaxXWI5b,https://api.spotify.com/v1/audio-analysis/1y36epywSYJG3IcaxXWI5b,225240,3
+Oceania,Medúlla,41,Björk,icelandic pop,2004,0.449,0.598,5,-8.365,0,0.162,0.475,0,0.237,0.489,200.191,audio_features,4aQGlcbxrtsDRo8JvMUDC5,spotify:track:4aQGlcbxrtsDRo8JvMUDC5,https://api.spotify.com/v1/tracks/4aQGlcbxrtsDRo8JvMUDC5,https://api.spotify.com/v1/audio-analysis/4aQGlcbxrtsDRo8JvMUDC5,204853,4
 
-Atopos,Fossora,46,Björk,art pop,2022,0.585,0.897,7,-5.414,1,0.221,0.519,0.000253,0.125,0.304,175.829,audio_features,6CHhrFW3XkOy3UfZnLck2g,spotify:track:6CHhrFW3XkOy3UfZnLck2g,https://api.spotify.com/v1/tracks/6CHhrFW3XkOy3UfZnLck2g,https://api.spotify.com/v1/audio-analysis/6CHhrFW3XkOy3UfZnLck2g,286903,4
+Sonnets / Unrealities XI,Medúlla,28,Björk,permanent wave,2004,0.432,0.0956,7,-13.877,1,0.0434,0.832,0,0.237,0.358,78.93,audio_features,2nwi41cyLLY2vVPEdPb2IF,spotify:track:2nwi41cyLLY2vVPEdPb2IF,https://api.spotify.com/v1/tracks/2nwi41cyLLY2vVPEdPb2IF,https://api.spotify.com/v1/audio-analysis/2nwi41cyLLY2vVPEdPb2IF,119560,3
 
-Ovule,Fossora,40,Björk,icelandic singer-songwriter,2022,0.408,0.446,5,-6.916,0,0.0378,0.58,0,0.336,0.261,127.717,audio_features,534d5ANGf0pWmCe0KNTD6F,spotify:track:534d5ANGf0pWmCe0KNTD6F,https://api.spotify.com/v1/tracks/534d5ANGf0pWmCe0KNTD6F,https://api.spotify.com/v1/audio-analysis/534d5ANGf0pWmCe0KNTD6F,218155,3
+Ancestors,Medúlla,27,Björk,icelandic pop,2004,0.285,0.257,9,-13.315,0,0.0367,0.954,0.000502,0.316,0.0928,113.305,audio_features,3SVoUKQe4TooTQ67NPbttk,spotify:track:3SVoUKQe4TooTQ67NPbttk,https://api.spotify.com/v1/tracks/3SVoUKQe4TooTQ67NPbttk,https://api.spotify.com/v1/audio-analysis/3SVoUKQe4TooTQ67NPbttk,248347,4
 
-Mycelia,Fossora,39,Björk,metropopolis,2022,0.784,0.026,6,-14.87,0,0.0565,0.983,0.016,0.0962,0.333,141.989,audio_features,15hl5FGO5b5ChONsKTLvde,spotify:track:15hl5FGO5b5ChONsKTLvde,https://api.spotify.com/v1/tracks/15hl5FGO5b5ChONsKTLvde,https://api.spotify.com/v1/audio-analysis/15hl5FGO5b5ChONsKTLvde,120176,3
+Mouths Cradle,Medúlla,31,Björk,metropopolis,2004,0.336,0.53,1,-9.009,1,0.047,0.681,4.31e-05,0.161,0.358,79.941,audio_features,26vSSN5zCR4gmX6DMxxjZI,spotify:track:26vSSN5zCR4gmX6DMxxjZI,https://api.spotify.com/v1/tracks/26vSSN5zCR4gmX6DMxxjZI,https://api.spotify.com/v1/audio-analysis/26vSSN5zCR4gmX6DMxxjZI,239827,4
 
-Sorrowful Soil,Fossora,38,Björk,art pop,2022,0.332,0.213,5,-10.955,0,0.0439,0.727,0,0.0934,0.222,77.343,audio_features,2ETLJnzi2cPo6RX3VgzRnl,spotify:track:2ETLJnzi2cPo6RX3VgzRnl,https://api.spotify.com/v1/tracks/2ETLJnzi2cPo6RX3VgzRnl,https://api.spotify.com/v1/audio-analysis/2ETLJnzi2cPo6RX3VgzRnl,195943,3
+Midvikudags,Medúlla,26,Björk,experimental pop,2004,0.244,0.407,2,-11.198,1,0.0369,0.89,0.00118,0.0843,0.203,84.442,audio_features,40W0Fr6AtTR03XAoma2Rf5,spotify:track:40W0Fr6AtTR03XAoma2Rf5,https://api.spotify.com/v1/tracks/40W0Fr6AtTR03XAoma2Rf5,https://api.spotify.com/v1/audio-analysis/40W0Fr6AtTR03XAoma2Rf5,84693,4
 
-Ancestress,Fossora,38,Björk,permanent wave,2022,0.298,0.38,2,-8.889,0,0.038,0.642,0,0.105,0.163,104.81,audio_features,08sEEy8n3kkCDBjZdYZ4GV,spotify:track:08sEEy8n3kkCDBjZdYZ4GV,https://api.spotify.com/v1/tracks/08sEEy8n3kkCDBjZdYZ4GV,https://api.spotify.com/v1/audio-analysis/08sEEy8n3kkCDBjZdYZ4GV,437914,3
+Triumph Of A Heart,Medúlla,36,Björk,icelandic singer-songwriter,2004,0.732,0.9,11,-7.012,0,0.101,0.5,0.000904,0.164,0.583,120.011,audio_features,2ZJdtalkNonRqukSTaYTf9,spotify:track:2ZJdtalkNonRqukSTaYTf9,https://api.spotify.com/v1/tracks/2ZJdtalkNonRqukSTaYTf9,https://api.spotify.com/v1/audio-analysis/2ZJdtalkNonRqukSTaYTf9,244213,4
 
-Fagurt Er í Fjörðum,Fossora,36,Björk,experimental vocal,2022,0.55,0.131,8,-12.364,0,0.0342,0.804,1.2e-06,0.121,0.292,48.285,audio_features,7sxmybK8Eo24k9uOWttqWS,spotify:track:7sxmybK8Eo24k9uOWttqWS,https://api.spotify.com/v1/tracks/7sxmybK8Eo24k9uOWttqWS,https://api.spotify.com/v1/audio-analysis/7sxmybK8Eo24k9uOWttqWS,44405,5
+Earth Intruders,Volta,36,Björk,experimental pop,2007,0.622,0.949,1,-7.825,1,0.274,0.408,0.00214,0.326,0.168,109.001,audio_features,7sGVR4Dw1DBl5oN9srSOsG,spotify:track:7sGVR4Dw1DBl5oN9srSOsG,https://api.spotify.com/v1/tracks/7sGVR4Dw1DBl5oN9srSOsG,https://api.spotify.com/v1/audio-analysis/7sGVR4Dw1DBl5oN9srSOsG,373853,4
+
+Wanderlust,Volta,34,Björk,permanent wave,2007,0.477,0.832,1,-7.289,1,0.0744,0.539,3e-05,0.107,0.16,130.092,audio_features,5mhcpeN6WloYolIWEqrpUg,spotify:track:5mhcpeN6WloYolIWEqrpUg,https://api.spotify.com/v1/tracks/5mhcpeN6WloYolIWEqrpUg,https://api.spotify.com/v1/audio-analysis/5mhcpeN6WloYolIWEqrpUg,351013,4
+
+The Dull Flame Of Desire,Volta,33,Björk,experimental pop,2007,0.535,0.533,2,-10.133,0,0.081,0.784,2.35e-05,0.114,0.209,130.079,audio_features,477O8tot5EEHg3CUxx2FG3,spotify:track:477O8tot5EEHg3CUxx2FG3,https://api.spotify.com/v1/tracks/477O8tot5EEHg3CUxx2FG3,https://api.spotify.com/v1/audio-analysis/477O8tot5EEHg3CUxx2FG3,450200,3
+
+Innocence,Volta,33,Björk,permanent wave,2007,0.43,0.69,2,-6.093,1,0.38,0.56,0,0.0775,0.434,87.161,audio_features,6pZdrFTQD0HWVlNYS6uKnh,spotify:track:6pZdrFTQD0HWVlNYS6uKnh,https://api.spotify.com/v1/tracks/6pZdrFTQD0HWVlNYS6uKnh,https://api.spotify.com/v1/audio-analysis/6pZdrFTQD0HWVlNYS6uKnh,267040,3
+
+I See Who You Are,Volta,30,Björk,icelandic experimental,2007,0.452,0.23,0,-11.332,0,0.0304,0.722,0.00132,0.604,0.148,105.052,audio_features,7iLlRu08U25QjBL4JVHIlT,spotify:track:7iLlRu08U25QjBL4JVHIlT,https://api.spotify.com/v1/tracks/7iLlRu08U25QjBL4JVHIlT,https://api.spotify.com/v1/audio-analysis/7iLlRu08U25QjBL4JVHIlT,262107,4
+
+Vertebrae By Vertebrae,Volta,28,Björk,trip hop,2007,0.514,0.576,4,-9.289,0,0.0462,0.543,0.000246,0.43,0.137,106.236,audio_features,0LvcZJ4wL0IUPBPK9S0xT6,spotify:track:0LvcZJ4wL0IUPBPK9S0xT6,https://api.spotify.com/v1/tracks/0LvcZJ4wL0IUPBPK9S0xT6,https://api.spotify.com/v1/audio-analysis/0LvcZJ4wL0IUPBPK9S0xT6,308213,3
+
+Pneumonia,Volta,27,Björk,icelandic singer-songwriter,2007,0.179,0.109,0,-15.341,1,0.0356,0.988,0.00139,0.397,0.0314,92.624,audio_features,7eFHUnFvAWit3hnE5UBsjd,spotify:track:7eFHUnFvAWit3hnE5UBsjd,https://api.spotify.com/v1/tracks/7eFHUnFvAWit3hnE5UBsjd,https://api.spotify.com/v1/audio-analysis/7eFHUnFvAWit3hnE5UBsjd,314147,3
+
+Hope,Volta,26,Björk,experimental vocal,2007,0.547,0.657,2,-11.717,1,0.103,0.15,0.129,0.369,0.205,193.803,audio_features,5GxBL1N5zTLbaaWZM8zdh2,spotify:track:5GxBL1N5zTLbaaWZM8zdh2,https://api.spotify.com/v1/tracks/5GxBL1N5zTLbaaWZM8zdh2,https://api.spotify.com/v1/audio-analysis/5GxBL1N5zTLbaaWZM8zdh2,242867,4
+
+Declare Independence,Volta,35,Björk,icelandic singer-songwriter,2007,0.531,0.973,1,-5.356,1,0.173,0.152,0.032,0.174,0.0399,148.861,audio_features,7gy9d7iBHW9BWhMNPjHuFf,spotify:track:7gy9d7iBHW9BWhMNPjHuFf,https://api.spotify.com/v1/tracks/7gy9d7iBHW9BWhMNPjHuFf,https://api.spotify.com/v1/audio-analysis/7gy9d7iBHW9BWhMNPjHuFf,253453,4
+
+My Juvenile,Volta,25,Björk,icelandic singer-songwriter,2007,0.364,0.179,9,-12.958,0,0.041,0.945,0,0.119,0.356,84.239,audio_features,1HiwgQ9FizW7nxU6S12FBL,spotify:track:1HiwgQ9FizW7nxU6S12FBL,https://api.spotify.com/v1/tracks/1HiwgQ9FizW7nxU6S12FBL,https://api.spotify.com/v1/audio-analysis/1HiwgQ9FizW7nxU6S12FBL,253547,4
+
+Arisen My Senses,Utopia,37,Björk,art pop,2017,0.348,0.677,10,-7.379,0,0.0411,0.124,0,0.113,0.387,97.505,audio_features,3XhrizN1izPAf3vzKdmbH5,spotify:track:3XhrizN1izPAf3vzKdmbH5,https://api.spotify.com/v1/tracks/3XhrizN1izPAf3vzKdmbH5,https://api.spotify.com/v1/audio-analysis/3XhrizN1izPAf3vzKdmbH5,299960,4
+
+Blissing Me,Utopia,40,Björk,icelandic pop,2017,0.482,0.467,9,-9.372,0,0.0324,0.893,0.000118,0.24,0.287,105.836,audio_features,0QEwFjt0hX1aQqrJY20HCz,spotify:track:0QEwFjt0hX1aQqrJY20HCz,https://api.spotify.com/v1/tracks/0QEwFjt0hX1aQqrJY20HCz,https://api.spotify.com/v1/audio-analysis/0QEwFjt0hX1aQqrJY20HCz,305707,4
+
+The Gate,Utopia,36,Björk,icelandic singer-songwriter,2017,0.271,0.241,2,-9.563,0,0.0341,0.732,0,0.137,0.0388,106.95,audio_features,7g2YQhm3jIxHnkMAeLjduf,spotify:track:7g2YQhm3jIxHnkMAeLjduf,https://api.spotify.com/v1/tracks/7g2YQhm3jIxHnkMAeLjduf,https://api.spotify.com/v1/audio-analysis/7g2YQhm3jIxHnkMAeLjduf,393573,3
+
+Utopia,Utopia,35,Björk,experimental pop,2017,0.347,0.464,9,-8.521,0,0.0354,0.927,4.76e-05,0.0974,0.19,78.216,audio_features,5gQR2YnZVOvvg4BgelxSjB,spotify:track:5gQR2YnZVOvvg4BgelxSjB,https://api.spotify.com/v1/tracks/5gQR2YnZVOvvg4BgelxSjB,https://api.spotify.com/v1/audio-analysis/5gQR2YnZVOvvg4BgelxSjB,282747,4
+
+Body Memory,Utopia,33,Björk,icelandic pop,2017,0.21,0.516,6,-8.987,1,0.0673,0.831,0.000108,0.134,0.0583,78.653,audio_features,2Ql3mCjOnedeUMbbmS2zLq,spotify:track:2Ql3mCjOnedeUMbbmS2zLq,https://api.spotify.com/v1/tracks/2Ql3mCjOnedeUMbbmS2zLq,https://api.spotify.com/v1/audio-analysis/2Ql3mCjOnedeUMbbmS2zLq,586520,3
+
+Features Creatures,Utopia,29,Björk,trip hop,2017,0.349,0.0922,11,-13.702,0,0.0371,0.989,0.000257,0.0967,0.0384,74.283,audio_features,3uyy89YdPU9FFidcHzCvoq,spotify:track:3uyy89YdPU9FFidcHzCvoq,https://api.spotify.com/v1/tracks/3uyy89YdPU9FFidcHzCvoq,https://api.spotify.com/v1/audio-analysis/3uyy89YdPU9FFidcHzCvoq,289960,3
+
+Courtship,Utopia,30,Björk,experimental pop,2017,0.491,0.464,1,-8.401,0,0.122,0.794,0.000127,0.164,0.235,135.797,audio_features,7LcaS5Shsd8sVtDoxM9XcK,spotify:track:7LcaS5Shsd8sVtDoxM9XcK,https://api.spotify.com/v1/tracks/7LcaS5Shsd8sVtDoxM9XcK,https://api.spotify.com/v1/audio-analysis/7LcaS5Shsd8sVtDoxM9XcK,284640,4
+
+Losss,Utopia,32,Björk,icelandic singer-songwriter,2017,0.326,0.739,1,-5.921,0,0.0772,0.394,3.29e-06,0.104,0.307,77.323,audio_features,0aExNHNXE2Y2JNG9WenvBi,spotify:track:0aExNHNXE2Y2JNG9WenvBi,https://api.spotify.com/v1/tracks/0aExNHNXE2Y2JNG9WenvBi,https://api.spotify.com/v1/audio-analysis/0aExNHNXE2Y2JNG9WenvBi,411467,4
+
+Sue Me,Utopia,30,Björk,permanent wave,2017,0.437,0.676,9,-7.179,0,0.0811,0.237,2.83e-06,0.0659,0.253,105.171,audio_features,3tgmTVV5gM5W1HCR2qIrbW,spotify:track:3tgmTVV5gM5W1HCR2qIrbW,https://api.spotify.com/v1/tracks/3tgmTVV5gM5W1HCR2qIrbW,https://api.spotify.com/v1/audio-analysis/3tgmTVV5gM5W1HCR2qIrbW,297840,4
+
+Tabula Rasa,Utopia,31,Björk,trip hop,2017,0.186,0.263,2,-10.099,0,0.0362,0.897,0.0215,0.22,0.0905,78.234,audio_features,2B2h6lG7aepB4Frywhiiae,spotify:track:2B2h6lG7aepB4Frywhiiae,https://api.spotify.com/v1/tracks/2B2h6lG7aepB4Frywhiiae,https://api.spotify.com/v1/audio-analysis/2B2h6lG7aepB4Frywhiiae,282013,5
+
+Claimstaker,Utopia,28,Björk,art pop,2017,0.322,0.186,6,-11.875,0,0.0412,0.967,0.00127,0.139,0.277,118.96,audio_features,35BJOG9EvdP850pT6GkCQY,spotify:track:35BJOG9EvdP850pT6GkCQY,https://api.spotify.com/v1/tracks/35BJOG9EvdP850pT6GkCQY,https://api.spotify.com/v1/audio-analysis/35BJOG9EvdP850pT6GkCQY,198813,4
+
+Paradisia,Utopia,28,Björk,experimental vocal,2017,0.344,0.19,9,-14.646,1,0.0379,0.909,0.858,0.488,0.242,90.048,audio_features,13S6Ggak5Xz8Z1f8HUslzv,spotify:track:13S6Ggak5Xz8Z1f8HUslzv,https://api.spotify.com/v1/tracks/13S6Ggak5Xz8Z1f8HUslzv,https://api.spotify.com/v1/audio-analysis/13S6Ggak5Xz8Z1f8HUslzv,104960,4
+
+Saint,Utopia,29,Björk,experimental vocal,2017,0.323,0.494,5,-9.088,1,0.0619,0.63,0.0055,0.23,0.34,119.785,audio_features,7E8GlU5yIQLvhIPfEFL4RO,spotify:track:7E8GlU5yIQLvhIPfEFL4RO,https://api.spotify.com/v1/tracks/7E8GlU5yIQLvhIPfEFL4RO,https://api.spotify.com/v1/audio-analysis/7E8GlU5yIQLvhIPfEFL4RO,281360,4
+
+Future Forever,Utopia,29,Björk,experimental vocal,2017,0.276,0.138,10,-12.624,1,0.0381,0.945,0.000424,0.105,0.208,142.829,audio_features,3jW7JssJi2hQnIMPhf1IKx,spotify:track:3jW7JssJi2hQnIMPhf1IKx,https://api.spotify.com/v1/tracks/3jW7JssJi2hQnIMPhf1IKx,https://api.spotify.com/v1/audio-analysis/3jW7JssJi2hQnIMPhf1IKx,287507,4
+
+Arisen My Senses,Utopia,37,Björk,art pop,2017,0.348,0.677,10,-7.379,0,0.0411,0.124,0,0.113,0.387,97.505,audio_features,3XhrizN1izPAf3vzKdmbH5,spotify:track:3XhrizN1izPAf3vzKdmbH5,https://api.spotify.com/v1/tracks/3XhrizN1izPAf3vzKdmbH5,https://api.spotify.com/v1/audio-analysis/3XhrizN1izPAf3vzKdmbH5,299960,4
+
+Blissing Me,Utopia,40,Björk,metropopolis,2017,0.482,0.467,9,-9.372,0,0.0324,0.893,0.000118,0.24,0.287,105.836,audio_features,0QEwFjt0hX1aQqrJY20HCz,spotify:track:0QEwFjt0hX1aQqrJY20HCz,https://api.spotify.com/v1/tracks/0QEwFjt0hX1aQqrJY20HCz,https://api.spotify.com/v1/audio-analysis/0QEwFjt0hX1aQqrJY20HCz,305707,4
+
+The Gate,Utopia,36,Björk,art pop,2017,0.271,0.241,2,-9.563,0,0.0341,0.732,0,0.137,0.0388,106.95,audio_features,7g2YQhm3jIxHnkMAeLjduf,spotify:track:7g2YQhm3jIxHnkMAeLjduf,https://api.spotify.com/v1/tracks/7g2YQhm3jIxHnkMAeLjduf,https://api.spotify.com/v1/audio-analysis/7g2YQhm3jIxHnkMAeLjduf,393573,3
+
+Utopia,Utopia,35,Björk,experimental pop,2017,0.347,0.464,9,-8.521,0,0.0354,0.927,4.76e-05,0.0974,0.19,78.216,audio_features,5gQR2YnZVOvvg4BgelxSjB,spotify:track:5gQR2YnZVOvvg4BgelxSjB,https://api.spotify.com/v1/tracks/5gQR2YnZVOvvg4BgelxSjB,https://api.spotify.com/v1/audio-analysis/5gQR2YnZVOvvg4BgelxSjB,282747,4
+
+Body Memory,Utopia,33,Björk,art pop,2017,0.21,0.516,6,-8.987,1,0.0673,0.831,0.000108,0.134,0.0583,78.653,audio_features,2Ql3mCjOnedeUMbbmS2zLq,spotify:track:2Ql3mCjOnedeUMbbmS2zLq,https://api.spotify.com/v1/tracks/2Ql3mCjOnedeUMbbmS2zLq,https://api.spotify.com/v1/audio-analysis/2Ql3mCjOnedeUMbbmS2zLq,586520,3
+
+Features Creatures,Utopia,29,Björk,icelandic pop,2017,0.349,0.0922,11,-13.702,0,0.0371,0.989,0.000257,0.0967,0.0384,74.283,audio_features,3uyy89YdPU9FFidcHzCvoq,spotify:track:3uyy89YdPU9FFidcHzCvoq,https://api.spotify.com/v1/tracks/3uyy89YdPU9FFidcHzCvoq,https://api.spotify.com/v1/audio-analysis/3uyy89YdPU9FFidcHzCvoq,289960,3
+
+Courtship,Utopia,30,Björk,metropopolis,2017,0.491,0.464,1,-8.401,0,0.122,0.794,0.000127,0.164,0.235,135.797,audio_features,7LcaS5Shsd8sVtDoxM9XcK,spotify:track:7LcaS5Shsd8sVtDoxM9XcK,https://api.spotify.com/v1/tracks/7LcaS5Shsd8sVtDoxM9XcK,https://api.spotify.com/v1/audio-analysis/7LcaS5Shsd8sVtDoxM9XcK,284640,4
+
+Losss,Utopia,32,Björk,experimental vocal,2017,0.326,0.739,1,-5.921,0,0.0772,0.394,3.29e-06,0.104,0.307,77.323,audio_features,0aExNHNXE2Y2JNG9WenvBi,spotify:track:0aExNHNXE2Y2JNG9WenvBi,https://api.spotify.com/v1/tracks/0aExNHNXE2Y2JNG9WenvBi,https://api.spotify.com/v1/audio-analysis/0aExNHNXE2Y2JNG9WenvBi,411467,4
+
+Sue Me,Utopia,30,Björk,art pop,2017,0.437,0.676,9,-7.179,0,0.0811,0.237,2.83e-06,0.0659,0.253,105.171,audio_features,3tgmTVV5gM5W1HCR2qIrbW,spotify:track:3tgmTVV5gM5W1HCR2qIrbW,https://api.spotify.com/v1/tracks/3tgmTVV5gM5W1HCR2qIrbW,https://api.spotify.com/v1/audio-analysis/3tgmTVV5gM5W1HCR2qIrbW,297840,4
+
+Tabula Rasa,Utopia,31,Björk,icelandic pop,2017,0.186,0.263,2,-10.099,0,0.0362,0.897,0.0215,0.22,0.0905,78.234,audio_features,2B2h6lG7aepB4Frywhiiae,spotify:track:2B2h6lG7aepB4Frywhiiae,https://api.spotify.com/v1/tracks/2B2h6lG7aepB4Frywhiiae,https://api.spotify.com/v1/audio-analysis/2B2h6lG7aepB4Frywhiiae,282013,5
+
+Claimstaker,Utopia,28,Björk,trip hop,2017,0.322,0.186,6,-11.875,0,0.0412,0.967,0.00127,0.139,0.277,118.96,audio_features,35BJOG9EvdP850pT6GkCQY,spotify:track:35BJOG9EvdP850pT6GkCQY,https://api.spotify.com/v1/tracks/35BJOG9EvdP850pT6GkCQY,https://api.spotify.com/v1/audio-analysis/35BJOG9EvdP850pT6GkCQY,198813,4
+
+Paradisia,Utopia,28,Björk,trip hop,2017,0.344,0.19,9,-14.646,1,0.0379,0.909,0.858,0.488,0.242,90.048,audio_features,13S6Ggak5Xz8Z1f8HUslzv,spotify:track:13S6Ggak5Xz8Z1f8HUslzv,https://api.spotify.com/v1/tracks/13S6Ggak5Xz8Z1f8HUslzv,https://api.spotify.com/v1/audio-analysis/13S6Ggak5Xz8Z1f8HUslzv,104960,4
+
+Saint,Utopia,29,Björk,icelandic experimental,2017,0.323,0.494,5,-9.088,1,0.0619,0.63,0.0055,0.23,0.34,119.785,audio_features,7E8GlU5yIQLvhIPfEFL4RO,spotify:track:7E8GlU5yIQLvhIPfEFL4RO,https://api.spotify.com/v1/tracks/7E8GlU5yIQLvhIPfEFL4RO,https://api.spotify.com/v1/audio-analysis/7E8GlU5yIQLvhIPfEFL4RO,281360,4
+
+Future Forever,Utopia,29,Björk,art pop,2017,0.276,0.138,10,-12.624,1,0.0381,0.945,0.000424,0.105,0.208,142.829,audio_features,3jW7JssJi2hQnIMPhf1IKx,spotify:track:3jW7JssJi2hQnIMPhf1IKx,https://api.spotify.com/v1/tracks/3jW7JssJi2hQnIMPhf1IKx,https://api.spotify.com/v1/audio-analysis/3jW7JssJi2hQnIMPhf1IKx,287507,4
+
+Atopos,Fossora,47,Björk,metropopolis,2022,0.585,0.897,7,-5.414,1,0.221,0.519,0.000253,0.125,0.304,175.829,audio_features,6CHhrFW3XkOy3UfZnLck2g,spotify:track:6CHhrFW3XkOy3UfZnLck2g,https://api.spotify.com/v1/tracks/6CHhrFW3XkOy3UfZnLck2g,https://api.spotify.com/v1/audio-analysis/6CHhrFW3XkOy3UfZnLck2g,286903,4
+
+Ovule,Fossora,40,Björk,icelandic experimental,2022,0.408,0.446,5,-6.916,0,0.0378,0.58,0,0.336,0.261,127.717,audio_features,534d5ANGf0pWmCe0KNTD6F,spotify:track:534d5ANGf0pWmCe0KNTD6F,https://api.spotify.com/v1/tracks/534d5ANGf0pWmCe0KNTD6F,https://api.spotify.com/v1/audio-analysis/534d5ANGf0pWmCe0KNTD6F,218155,3
+
+Mycelia,Fossora,40,Björk,experimental pop,2022,0.784,0.026,6,-14.87,0,0.0565,0.983,0.016,0.0962,0.333,141.989,audio_features,15hl5FGO5b5ChONsKTLvde,spotify:track:15hl5FGO5b5ChONsKTLvde,https://api.spotify.com/v1/tracks/15hl5FGO5b5ChONsKTLvde,https://api.spotify.com/v1/audio-analysis/15hl5FGO5b5ChONsKTLvde,120176,3
+
+Sorrowful Soil,Fossora,38,Björk,permanent wave,2022,0.332,0.213,5,-10.955,0,0.0439,0.727,0,0.0934,0.222,77.343,audio_features,2ETLJnzi2cPo6RX3VgzRnl,spotify:track:2ETLJnzi2cPo6RX3VgzRnl,https://api.spotify.com/v1/tracks/2ETLJnzi2cPo6RX3VgzRnl,https://api.spotify.com/v1/audio-analysis/2ETLJnzi2cPo6RX3VgzRnl,195943,3
+
+Ancestress,Fossora,39,Björk,metropopolis,2022,0.298,0.38,2,-8.889,0,0.038,0.642,0,0.105,0.163,104.81,audio_features,08sEEy8n3kkCDBjZdYZ4GV,spotify:track:08sEEy8n3kkCDBjZdYZ4GV,https://api.spotify.com/v1/tracks/08sEEy8n3kkCDBjZdYZ4GV,https://api.spotify.com/v1/audio-analysis/08sEEy8n3kkCDBjZdYZ4GV,437914,3
+
+Fagurt Er í Fjörðum,Fossora,36,Björk,icelandic pop,2022,0.55,0.131,8,-12.364,0,0.0342,0.804,1.2e-06,0.121,0.292,48.285,audio_features,7sxmybK8Eo24k9uOWttqWS,spotify:track:7sxmybK8Eo24k9uOWttqWS,https://api.spotify.com/v1/tracks/7sxmybK8Eo24k9uOWttqWS,https://api.spotify.com/v1/audio-analysis/7sxmybK8Eo24k9uOWttqWS,44405,5
 
 Victimhood,Fossora,34,Björk,experimental pop,2022,0.455,0.443,10,-9.68,0,0.0372,0.324,0.0532,0.0972,0.0912,159.973,audio_features,2o98si2baNaCrV2CsbGd9o,spotify:track:2o98si2baNaCrV2CsbGd9o,https://api.spotify.com/v1/tracks/2o98si2baNaCrV2CsbGd9o,https://api.spotify.com/v1/audio-analysis/2o98si2baNaCrV2CsbGd9o,417362,4
 
 Allow,Fossora,35,Björk,icelandic pop,2022,0.396,0.384,10,-9.797,1,0.0403,0.707,0.0109,0.272,0.211,148.011,audio_features,1ujBb8hmsIWSzZQMSr5epC,spotify:track:1ujBb8hmsIWSzZQMSr5epC,https://api.spotify.com/v1/tracks/1ujBb8hmsIWSzZQMSr5epC,https://api.spotify.com/v1/audio-analysis/1ujBb8hmsIWSzZQMSr5epC,326676,4
 
-Fungal City,Fossora,35,Björk,experimental pop,2022,0.498,0.621,10,-6.31,1,0.222,0.406,1.16e-06,0.216,0.56,160.048,audio_features,3ZaGoOdYAyPpKYEi69JvrJ,spotify:track:3ZaGoOdYAyPpKYEi69JvrJ,https://api.spotify.com/v1/tracks/3ZaGoOdYAyPpKYEi69JvrJ,https://api.spotify.com/v1/audio-analysis/3ZaGoOdYAyPpKYEi69JvrJ,285845,4
+Fungal City,Fossora,35,Björk,permanent wave,2022,0.498,0.621,10,-6.31,1,0.222,0.406,1.16e-06,0.216,0.56,160.048,audio_features,3ZaGoOdYAyPpKYEi69JvrJ,spotify:track:3ZaGoOdYAyPpKYEi69JvrJ,https://api.spotify.com/v1/tracks/3ZaGoOdYAyPpKYEi69JvrJ,https://api.spotify.com/v1/audio-analysis/3ZaGoOdYAyPpKYEi69JvrJ,285845,4
 
-Trölla-Gabba,Fossora,32,Björk,art pop,2022,0.201,0.589,8,-7.339,1,0.0646,0.0657,0.262,0.0791,0.0355,189.659,audio_features,7v9sM0H45T0xWAHt11dEHR,spotify:track:7v9sM0H45T0xWAHt11dEHR,https://api.spotify.com/v1/tracks/7v9sM0H45T0xWAHt11dEHR,https://api.spotify.com/v1/audio-analysis/7v9sM0H45T0xWAHt11dEHR,117835,4
+Trölla-Gabba,Fossora,33,Björk,icelandic pop,2022,0.201,0.589,8,-7.339,1,0.0646,0.0657,0.262,0.0791,0.0355,189.659,audio_features,7v9sM0H45T0xWAHt11dEHR,spotify:track:7v9sM0H45T0xWAHt11dEHR,https://api.spotify.com/v1/tracks/7v9sM0H45T0xWAHt11dEHR,https://api.spotify.com/v1/audio-analysis/7v9sM0H45T0xWAHt11dEHR,117835,4
 
-Freefall,Fossora,33,Björk,metropopolis,2022,0.403,0.341,5,-10.832,0,0.0385,0.627,0.000127,0.098,0.288,140.06,audio_features,7syXP4kV5MEVwX0kgZAw6A,spotify:track:7syXP4kV5MEVwX0kgZAw6A,https://api.spotify.com/v1/tracks/7syXP4kV5MEVwX0kgZAw6A,https://api.spotify.com/v1/audio-analysis/7syXP4kV5MEVwX0kgZAw6A,271078,4
+Freefall,Fossora,33,Björk,trip hop,2022,0.403,0.341,5,-10.832,0,0.0385,0.627,0.000127,0.098,0.288,140.06,audio_features,7syXP4kV5MEVwX0kgZAw6A,spotify:track:7syXP4kV5MEVwX0kgZAw6A,https://api.spotify.com/v1/tracks/7syXP4kV5MEVwX0kgZAw6A,https://api.spotify.com/v1/audio-analysis/7syXP4kV5MEVwX0kgZAw6A,271078,4
 
-Fossora,Fossora,41,Björk,icelandic singer-songwriter,2022,0.613,0.619,10,-5.418,1,0.0312,0.00273,0.0151,0.0582,0.222,100.004,audio_features,6JjISShxjXOGx8C40pBtQJ,spotify:track:6JjISShxjXOGx8C40pBtQJ,https://api.spotify.com/v1/tracks/6JjISShxjXOGx8C40pBtQJ,https://api.spotify.com/v1/audio-analysis/6JjISShxjXOGx8C40pBtQJ,259064,4
+Fossora,Fossora,41,Björk,experimental vocal,2022,0.613,0.619,10,-5.418,1,0.0312,0.00273,0.0151,0.0582,0.222,100.004,audio_features,6JjISShxjXOGx8C40pBtQJ,spotify:track:6JjISShxjXOGx8C40pBtQJ,https://api.spotify.com/v1/tracks/6JjISShxjXOGx8C40pBtQJ,https://api.spotify.com/v1/audio-analysis/6JjISShxjXOGx8C40pBtQJ,259064,4
 
-Her Mother’s House,Fossora,34,Björk,experimental pop,2022,0.162,0.157,10,-11.093,1,0.0319,0.946,0.00242,0.0975,0.109,85.531,audio_features,3dH62oPM9JZhu9WgXzzmnp,spotify:track:3dH62oPM9JZhu9WgXzzmnp,https://api.spotify.com/v1/tracks/3dH62oPM9JZhu9WgXzzmnp,https://api.spotify.com/v1/audio-analysis/3dH62oPM9JZhu9WgXzzmnp,273016,4
+Her Mother’s House,Fossora,34,Björk,art pop,2022,0.162,0.157,10,-11.093,1,0.0319,0.946,0.00242,0.0975,0.109,85.531,audio_features,3dH62oPM9JZhu9WgXzzmnp,spotify:track:3dH62oPM9JZhu9WgXzzmnp,https://api.spotify.com/v1/tracks/3dH62oPM9JZhu9WgXzzmnp,https://api.spotify.com/v1/audio-analysis/3dH62oPM9JZhu9WgXzzmnp,273016,4
 

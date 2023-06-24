@@ -7,7 +7,7 @@ import random
 client_credentials_manager = SpotifyClientCredentials(client_id='95bbea0e91594af196a688f36ff2faa8', client_secret='fc7e4d9432a2486e8be0231cf52fd22b')
 sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager)
 
-URIS = ["4ORsCg1x8p80RfW0vXA35N","3p7WXDBxhC5KS9IFXnwae7","4u3MPfHM60rFFULJebZIay","2i0mqPNTcaLcmKWSMsE3c8","0KVdzmHHGGE8STv19uYPiL"]
+URIS = ["4ORsCg1x8p80RfW0vXA35N","3p7WXDBxhC5KS9IFXnwae7", "3knDOJUQBAATXsKYLWO4k8","4u3MPfHM60rFFULJebZIay","12n9nyAJ5Q4FHRldrciIPG","64EKrS1Ubw2rQ9qn9QRUq3", "2i0mqPNTcaLcmKWSMsE3c8","2i0mqPNTcaLcmKWSMsE3c8", "0KVdzmHHGGE8STv19uYPiL"]
 campos = []
 campos2 = {}
 aux = {"name": 1, "album": 2, "popularity": 3, "artist": 4, "genre": 5, "year": 6}

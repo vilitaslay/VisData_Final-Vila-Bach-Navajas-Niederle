@@ -83,18 +83,20 @@ function createChart(key) {
     marginRight: 50,
     x: {
       ticks: 10,
-      label: key,
-      axis: "top",
+      nice: true,
     },
     y: {
-      domain: [0,9],
+      domain: [0, 15],
+      label: key,
     },
     //y: {domain: [0,250],},
     marks: [
       Plot.line(
         dataChart, Plot.groupX({y: "count"},{ 
        // Plot.groupY({x: 'mean'}, { 
-          x: key,
+          
+          x: "year",
+          y: key,
           //r: 8,
           anchor: "middle",
           //curve: "natural",
