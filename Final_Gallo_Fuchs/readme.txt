@@ -1,0 +1,1 @@
+ejemplo que me mando juli para ver como hacer varios tipos de graficos segun el step de scrollama

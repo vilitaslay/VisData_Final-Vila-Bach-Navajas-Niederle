@@ -7,15 +7,17 @@ let hChart = wChart * 0.5;
 let dataChart = [];
 let $step;
 
+
 // initialize the scrollama
 let scroller = scrollama();
 
 // fetch data
-d3.csv("./data/bjork.csv", d3.autoType).then(function (data) {
-  dataChart = data;
-  // kick things off
-  init();
-});
+//Acá tienen que cambiar el nombre del csv
+d3.csv("datosfinal.csv", d3.autoType).then(function (data) {
+    dataChart = data;
+    // kick things off
+    init();
+  });
 
 function handleStepExit(response) {
   // if ($step) {
@@ -44,16 +46,13 @@ function handleStepEnter(response) {
   // console.log("$step", $step);
   // console.log("key", key);
 
-  if(key=="popularity"){
-    createChartLine2(key);
-  }
-  if(key=="danceability"){
-    createChartLine1(key);
-  }
-  if(key=="energy"){
-    createChartLine2(key);
-  }if(key=="loudness"){
-    createChartLine2(key);
+  //createChart(key);
+  if(key == 'grafico1'){
+    grafico1()
+  }else if(key == 'grafico2'){
+    grafico2()
+  } else if(key == 'grafico3'){
+    grafico3()
   }
 }
 
@@ -81,87 +80,38 @@ function init() {
     .onStepProgress(handleStepProgress);
 }
 
-let dom = [1993,1998,2001,2005,2007,2017,2002]
 /* DataViz */
-function createChartLine1(key) {
-   //borro el grafico anterior
+function grafico1() {
+  //Esto es importante que lo dejen para que el gráfico anterior se borre
   var padre = d3.select("#scrolly figure")
   padre.selectAll("*").remove();
 
-  let chart = Plot.plot({
-    width: wChart,
-    height: hChart,
-    grid: true,
-    marginTop: 50,
-    marginBottom: 100,
-    marginLeft: 50,
-    marginRight: 50,
-    x: {
-      ticks: dom,
-      nice: true,
-    },
-    y: {
-      domain: [0, 3],
-      label: key,
-    },
-    line: { color: "red" },
-    marks: [
-      Plot.line(
-        dataChart, Plot.groupX({y: "count"},{ 
-       // Plot.groupY({x: 'mean'}, { 
-          
-          x: key,
-          //r: 8,
-          anchor: "middle",
-          
-        })
-      ),],
-  });
-
-
-  d3.select("#scrolly figure").append(() => chart);
+  //CODIGO
+  
+  //Acá fijense que el gráfico se appendee en #scrolly figure y cambien chart1 por el
+  //nombre de la variable de su gráfico
+  d3.select("#scrolly figure").append(() => chart1);
 }
-
-/* DataViz */
-function createChartLine2(key) {
-   //borro el grafico anterior
+function grafico2(){
+  //Esto es importante que lo dejen para que el gráfico anterior se borre
   var padre = d3.select("#scrolly figure")
   padre.selectAll("*").remove();
 
-  let chart = Plot.plot({
-    width: wChart,
-    height: hChart,
-    grid: true,
-    marginTop: 50,
-    marginBottom: 100,
-    marginLeft: 50,
-    marginRight: 50,
-    x: {
-      ticks: 10,
-      nice: true,
-    },
-    y: {
-      domain: [0, 10],
-      label: key,
-    },
-    color: {
-      scheme: 'ylorbr',
-    },
-    line: { color: "red" },
+  //CODIGO
+  
+  //Acá fijense que el gráfico se appendee en #scrolly figure y cambien chart1 por el
+  //nombre de la variable de su gráfico
+  d3.select("#scrolly figure").append(() => chart1);
 
-    marks: [
-      Plot.line(
-        dataChart, Plot.groupX({y: "count"},{ 
-       // Plot.groupY({x: 'mean'}, { 
-          
-          x: key,
-          //r: 8,
-          anchor: "middle",
-          curve: "natural",
-        })
-      ),],
-  });
-  d3.select("#scrolly figure").append(() => chart);
-
-
-  }
+}
+function grafico3() {
+  //Esto es importante que lo dejen para que el gráfico anterior se borre
+  var padre = d3.select("#scrolly figure")
+  padre.selectAll("*").remove();
+  
+  //CODIGO
+  
+  //Acá fijense que el gráfico se appendee en #scrolly figure y cambien chart1 por el
+  //nombre de la variable de su gráfico
+  d3.select("#scrolly figure").append(() => chart1);
+}
