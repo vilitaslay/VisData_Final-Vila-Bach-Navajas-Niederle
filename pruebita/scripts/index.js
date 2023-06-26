@@ -59,7 +59,17 @@ function handleStepEnter(response) {
   // console.log("$step", $step);
   // console.log("key", key);
 
-  createChart(key);
+  if(key=="popularity"){
+    createChartLine2(key);
+  }
+  if(key=="danceability"){
+    createChartLine1(key);
+  }
+  if(key=="energy"){
+    createChartLine2(key);
+  }if(key=="loudness"){
+    createChartLine2(key);
+  }
 }
 
 function handleStepProgress(response) {
@@ -72,8 +82,53 @@ function handleStepProgress(response) {
 
 
 
+let dom = [1993,1998,2001,2005,2007,2017,2002]
 /* DataViz */
-function createChart(key) {
+function createChartLine1(key) {
+   //borro el grafico anterior
+  var padre = d3.select("#scrolly figure")
+  padre.selectAll("*").remove();
+
+  let chart = Plot.plot({
+    width: wChart,
+    height: hChart,
+    grid: true,
+    marginTop: 50,
+    marginBottom: 100,
+    marginLeft: 50,
+    marginRight: 50,
+    x: {
+      ticks: dom,
+      nice: true,
+    },
+    y: {
+      domain: [0, 3],
+      label: key,
+    },
+    line: { color: "red" },
+    marks: [
+      Plot.line(
+        dataChart, Plot.groupX({y: "count"},{ 
+       // Plot.groupY({x: 'mean'}, { 
+          
+          x: key,
+          //r: 8,
+          anchor: "middle",
+          
+        })
+      ),],
+  });
+
+
+  d3.select("#scrolly figure").append(() => chart);
+}
+
+/* DataViz */
+function createChartLine2(key) {
+   //borro el grafico anterior
+  var padre = d3.select("#scrolly figure")
+  padre.selectAll("*").remove();
+
   let chart = Plot.plot({
     width: wChart,
     height: hChart,
@@ -88,25 +143,27 @@ function createChart(key) {
     },
     y : {
       domain: getDefaultDomain(key),
+
     },
-    //y: {domain: [0,250],},
+    color: {
+      scheme: 'ylorbr',
+    },
+    line: { color: "red" },
+
     marks: [
       Plot.line(
         dataChart, Plot.groupX({y: "mean"},{ 
        // Plot.groupY({x: 'mean'}, { 
           
-          x: "year",
-          y: key,
+          x: key,
           //r: 8,
           anchor: "middle",
-          //curve: "natural",
+          curve: "natural",
         })
       ),],
   });
-
-
-  d3.select("#scrolly figure svg").remove();
   d3.select("#scrolly figure").append(() => chart);
+
 }
 
 function getDefaultDomain(key) {
