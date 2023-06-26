@@ -10,6 +10,21 @@ let $step;
 // initialize the scrollama
 let scroller = scrollama();
 
+function init() {
+  // 1. setup the scroller passing options
+  // 		this will also initialize trigger observations
+  // 2. bind scrollama event handlers (this can be chained like below)
+  scroller
+    .setup({
+      step: "#scrolly article .step",
+      offset: 0.33,
+      debug: false,
+      progress: true,
+    })
+    .onStepEnter(handleStepEnter)
+    .onStepExit(handleStepExit)
+    .onStepProgress(handleStepProgress);
+}
 // fetch data
 d3.csv("./data/bjork.csv", d3.autoType).then(function (data) {
   dataChart = data;
@@ -55,21 +70,7 @@ function handleStepProgress(response) {
   $step.select(".progress").text(d3.format(".1%")(response.progress));
 }
 
-function init() {
-  // 1. setup the scroller passing options
-  // 		this will also initialize trigger observations
-  // 2. bind scrollama event handlers (this can be chained like below)
-  scroller
-    .setup({
-      step: "#scrolly article .step",
-      offset: 0.33,
-      debug: false,
-      progress: true,
-    })
-    .onStepEnter(handleStepEnter)
-    .onStepExit(handleStepExit)
-    .onStepProgress(handleStepProgress);
-}
+
 
 /* DataViz */
 function createChart(key) {
@@ -85,14 +86,13 @@ function createChart(key) {
       ticks: 10,
       nice: true,
     },
-    y: {
-      domain: [0, 15],
-      label: key,
+    y : {
+      domain: getDefaultDomain(key),
     },
     //y: {domain: [0,250],},
     marks: [
       Plot.line(
-        dataChart, Plot.groupX({y: "count"},{ 
+        dataChart, Plot.groupX({y: "mean"},{ 
        // Plot.groupY({x: 'mean'}, { 
           
           x: "year",
@@ -107,4 +107,15 @@ function createChart(key) {
 
   d3.select("#scrolly figure svg").remove();
   d3.select("#scrolly figure").append(() => chart);
+}
+
+function getDefaultDomain(key) {
+  if (key === "loudness") {
+    return [-60, 0];
+  } else if (key === "popularity"){
+    // Define the default domain for other keys
+    return [0, 100];
+  } else {
+    return [0, 1];
+  }
 }
