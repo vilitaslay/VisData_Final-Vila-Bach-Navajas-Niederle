@@ -1,3 +1,4 @@
+
 // using d3 for convenience
 let main = d3.select("main");
 let scrolly = main.select("#scrolly");
@@ -6,6 +7,11 @@ let wChart = 1200
 let hChart = wChart * 0.5;
 let dataChart = [];
 let $step;
+
+// let colores = {
+//   1993 : "hsl(22, 6, 25)",
+//   1995 : 
+// }
 
 // initialize the scrollama
 let scroller = scrollama();
@@ -59,17 +65,7 @@ function handleStepEnter(response) {
   // console.log("$step", $step);
   // console.log("key", key);
 
-  if(key=="popularity"){
-    createChartLine2(key);
-  }
-  if(key=="danceability"){
-    createChartLine1(key);
-  }
-  if(key=="energy"){
-    createChartLine2(key);
-  }if(key=="loudness"){
-    createChartLine2(key);
-  }
+  createChart(key);
 }
 
 function handleStepProgress(response) {
@@ -82,13 +78,8 @@ function handleStepProgress(response) {
 
 
 
-let dom = [1993,1998,2001,2005,2007,2017,2002]
 /* DataViz */
-function createChartLine1(key) {
-   //borro el grafico anterior
-  var padre = d3.select("#scrolly figure")
-  padre.selectAll("*").remove();
-
+function createChart(key) {
   let chart = Plot.plot({
     width: wChart,
     height: hChart,
@@ -98,72 +89,27 @@ function createChartLine1(key) {
     marginLeft: 50,
     marginRight: 50,
     x: {
-      ticks: dom,
-      nice: true,
-    },
-    y: {
-      domain: [0, 3],
-      label: key,
-    },
-    line: { color: "red" },
-    marks: [
-      Plot.line(
-        dataChart, Plot.groupX({y: "count"},{ 
-       // Plot.groupY({x: 'mean'}, { 
-          
-          x: key,
-          //r: 8,
-          anchor: "middle",
-          
-        })
-      ),],
-  });
-
-
-  d3.select("#scrolly figure").append(() => chart);
-}
-
-/* DataViz */
-function createChartLine2(key) {
-   //borro el grafico anterior
-  var padre = d3.select("#scrolly figure")
-  padre.selectAll("*").remove();
-
-  let chart = Plot.plot({
-    width: wChart,
-    height: hChart,
-    grid: true,
-    marginTop: 50,
-    marginBottom: 100,
-    marginLeft: 50,
-    marginRight: 50,
-    x: {
-      ticks: 10,
       nice: true,
     },
     y : {
       domain: getDefaultDomain(key),
-
     },
-    color: {
-      scheme: 'ylorbr',
-    },
-    line: { color: "red" },
-
     marks: [
-      Plot.line(
+      Plot.barY(
         dataChart, Plot.groupX({y: "mean"},{ 
        // Plot.groupY({x: 'mean'}, { 
-          
-          x: key,
+          x: "year",
+          y: key,
           //r: 8,
           anchor: "middle",
-          curve: "natural",
         })
-      ),],
+      ),
+    ],
   });
-  d3.select("#scrolly figure").append(() => chart);
 
+
+  d3.select("#scrolly figure svg").remove();
+  d3.select("#scrolly figure").append(() => chart);
 }
 
 function getDefaultDomain(key) {
