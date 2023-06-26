@@ -154,9 +154,8 @@ figure p {
 }
 
 .step {
-  margin: 0 auto 2rem auto;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  margin-top: 50px;
   height: 100vh;
 }
 
@@ -164,17 +163,6 @@ figure p {
   margin-bottom: 0;
 }
 
-.step.is-active p {
-  /* background-color: goldenrod; */
-  color: #3b3b3b;
-}
-
-.step p {
-  text-align: center;
-  padding: 1rem;
-  font-size: 1.5rem;
-  background-color: #3b3b3b;
-}
 
 /* Plot */
 g[aria-label="text"] text {

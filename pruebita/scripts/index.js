@@ -3,7 +3,7 @@
 let main = d3.select("main");
 let scrolly = main.select("#scrolly");
 let $figure = scrolly.select("figure");
-let wChart = 1200
+let wChart = 1200;
 let hChart = wChart * 0.5;
 let dataChart = [];
 let $step;
@@ -32,7 +32,7 @@ function init() {
     .onStepProgress(handleStepProgress);
 }
 // fetch data
-d3.csv("./data/bjork.csv", d3.autoType).then(function (data) {
+d3.csv("../../datos/bjork.csv", d3.autoType).then(function (data) {
   dataChart = data;
   // kick things off
   init();
@@ -56,8 +56,6 @@ function handleStepEnter(response) {
   console.count("classed");
   // }
 
-  $step.style("background", "#ff00002e");
-
   // create new chart
   const key = $step.attr("data-step");
 
@@ -68,45 +66,31 @@ function handleStepEnter(response) {
   createChart(key);
 }
 
-function handleStepProgress(response) {
-  // console.log(response);
-  // $figure.style("opacity", response.progress);
-  // $step = d3.select(response.element);
-  // console.log($step.attr("data-step"));
-  $step.select(".progress").text(d3.format(".1%")(response.progress));
-}
-
-
-
 /* DataViz */
 function createChart(key) {
   let chart = Plot.plot({
     width: wChart,
     height: hChart,
     grid: true,
-    marginTop: 50,
-    marginBottom: 100,
-    marginLeft: 50,
-    marginRight: 50,
+    margin:50,
+    
     x: {
       nice: true,
     },
     y : {
+      nice: true,
       domain: getDefaultDomain(key),
     },
     marks: [
       Plot.barY(
         dataChart, Plot.groupX({y: "mean"},{ 
-       // Plot.groupY({x: 'mean'}, { 
           x: "year",
           y: key,
-          //r: 8,
-          anchor: "middle",
+          fill: "album"
         })
       ),
     ],
   });
-
 
   d3.select("#scrolly figure svg").remove();
   d3.select("#scrolly figure").append(() => chart);
