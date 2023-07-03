@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>VD | Ejemplo Scrolly</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="style/index.css" />
   </head>
-
   <body>
     <main>
       <section id="intro">
@@ -35,6 +34,10 @@
           </div>
           <div class="step" data-step="acousticness">
           </div>
+          <div class="step" data-step="valence">
+          </div>
+          <div class="step" data-step="instrumentalness">
+          </div>
         </article>
       </section>
 
@@ -50,6 +53,28 @@
           scelerisque eu ultrices vitae auctor eu augue.
         </p>
       </section>
+
+      <h1> JUEGO: Björk's Hidden Gems</h1>
+  <div class = "juego">
+    <div class="categoria" id="categoria"></div>
+      <div class="contenedor">
+        <div class="puntaje" id="puntaje"></div>
+        <div class="encabezado">
+          <audio class="repro" id="cancion" controls src="/hueguito/mp3/Like_someone_in_love.mp3" type="audio/mpeg"></audio>
+          <div class="numero" id="numero"></div>
+          <div class="pregunta" id="pregunta"></div>
+          <img src="#" class="imagen" id="imagen">
+        </div>
+        <div class = "botones">
+          <div class="btn" id="btn1" onclick="oprimir_btn(0)"></div>
+          <div class="btn" id="btn2" onclick="oprimir_btn(1)"></div>
+          <div class="btn" id="btn3" onclick="oprimir_btn(2)"></div>
+          <div class="btn" id="btn4" onclick="oprimir_btn(3)"></div>
+        </div>
+      <script src="/scripts/scriptJuego.js"></script>
+      <link rel=" stylesheet" href = "style/styleHueguito.css"
+   </div>
+  </div>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
