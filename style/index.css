@@ -110,7 +110,7 @@ nav {
   position: relative;
   /* background-color: #f3f3f3; */
   padding: 1rem;
-  transition: 1s;
+  /* transition: 1s; */
 }
 
 #scrolly svg  {

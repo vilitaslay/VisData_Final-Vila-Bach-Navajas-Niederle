@@ -43,6 +43,10 @@ function handleStepExit(response) {
   console.count("classed");
   d3.select(response.element).classed("is-active", false);
   response.element.style.transform = 'translateY(100px)';
+  if (key == "salida") {
+
+    deleteFixedText($step.attr("data-step"));
+  }
   // }
 }
 
@@ -64,8 +68,12 @@ function handleStepEnter(response) {
   // console.log("response.element", response.element);
   // console.log("$step", $step);
   // console.log("key", key);
-
-  createChart(key);
+  if (key != "salida"){ 
+  
+    createChart(key);
+  }else {
+    deleteFixedText();
+  }
 }
 
 /* DataViz */
@@ -96,8 +104,10 @@ function createChart(key) {
   d3.select("#scrolly figure svg").remove();
   d3.select("#scrolly figure").insert(() => chart, "#fixedText");
 
+
   // Update the fixed text
   updateFixedText(key);
+
 }
 
 function getDefaultDomain(key) {
@@ -127,4 +137,11 @@ function updateFixedText(key) {
   fixedTextElement.style.bottom = "0";
 
   
+}
+
+//para borrar el grafico
+function deleteFixedText() {
+  //Just remove the fixed text
+  d3.select("#fixedText").selectAll("*").remove();
+
 }
