@@ -42,11 +42,13 @@ function handleStepExit(response) {
   // if ($step) {
   console.count("classed");
   d3.select(response.element).classed("is-active", false);
+  response.element.style.transform = 'translateY(100px)';
   // }
 }
 
 // scrollama event handlers
 function handleStepEnter(response) {
+  response.element.style.transform = 'translateY(0)';
   // console.log(response);
   $step = d3.select(response.element);
 
