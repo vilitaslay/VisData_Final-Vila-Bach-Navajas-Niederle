@@ -57,9 +57,9 @@ function handleStepEnter(response) {
   $step.classed("is-active", true);
   console.count("classed");
   // }
-
   // create new chart
   const key = $step.attr("data-step");
+  updateFixedText($step.attr("data-step"));
 
   // console.log("response.element", response.element);
   // console.log("$step", $step);
@@ -93,9 +93,11 @@ function createChart(key) {
       ),
     ],
   });
-
   d3.select("#scrolly figure svg").remove();
-  d3.select("#scrolly figure").append(() => chart);
+  d3.select("#scrolly figure").insert(() => chart, "#fixedText");
+
+  // Update the fixed text
+  updateFixedText(key);
 }
 
 function getDefaultDomain(key) {
@@ -107,4 +109,22 @@ function getDefaultDomain(key) {
   } else {
     return [0, 1];
   }
+}
+
+function updateFixedText(key) {
+  // Remove previous fixed text
+  d3.select("#fixedText").selectAll("*").remove();
+
+  // Append the new fixed text
+  d3.select("#fixedText")
+    .append("p")
+    .text("Your text for key " + key + " goes here");
+
+  // ...apply any additional styling as needed...
+  const fixedTextElement = document.getElementById("fixedText");
+  fixedTextElement.style.position = "fixed";
+  fixedTextElement.style.left = "0";
+  fixedTextElement.style.bottom = "0";
+
+  
 }

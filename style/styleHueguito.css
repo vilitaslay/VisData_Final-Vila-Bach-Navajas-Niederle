@@ -5,8 +5,10 @@
   }
   h1 {
     text-align: center;
-    color: var(--main-text);
+    color: var(--main-h1);
     margin:20px;
+    font-size: xx-large;
+    font-weight: 600;
   }
 
   .juego {
