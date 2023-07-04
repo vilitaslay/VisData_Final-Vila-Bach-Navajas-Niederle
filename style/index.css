@@ -1,4 +1,5 @@
 @import "/style/variables.css";
+@import "/fuentes";
 
 * {
   box-sizing: border-box;
@@ -8,11 +9,18 @@ html,
 body {
   margin: 0;
   padding: 0;
+  /* background-color:rgb(207, 137, 93); */
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+#foto1 {
+  text-align: right;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-image: url('gradiente.jpg');
+  background-size: cover;
+  background-position: center;
   min-height: 1280px;
   color: #3b3b3b;
   font-size: 24px;
@@ -70,16 +78,31 @@ nav {
 }
 
 #intro {
+  
   max-width: 40rem;
   margin: 1rem auto;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .intro__hed {
+  background-color: rgb(190, 193, 100);
+  font-family: bjork;
   font-size: 3em;
   line-height: 1.2;
-  margin: 2rem auto 0.5rem auto;
-  color: var(--main-h1);
+  color: rgb(89, 6, 6);
+  text-align: center;
+  padding: 2rem 0;
+  margin-bottom: 0.5rem;
+}
+.intro__hed0 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3em;
+  line-height: 1.2;
+  color: rgb(89, 6, 6);
+  text-align: center;
+  padding: 2rem 0;
+  margin-bottom: 0.5rem;
 }
 
 .intro__dek {
@@ -110,7 +133,7 @@ nav {
   position: relative;
   /* background-color: #f3f3f3; */
   padding: 1rem;
-  /* transition: 1s; */
+  transition: 1s;
 }
 
 #scrolly svg  {
@@ -170,5 +193,13 @@ g[aria-label="text"] text {
   font-weight: bold;
   font-size: 9px;
   text-shadow: -2px -2px 0px whitesmoke, -2px -1px 0px whitesmoke, -2px 0px 0px whitesmoke, -2px 1px 0px whitesmoke, -2px 2px 0px whitesmoke, -1px -2px 0px whitesmoke, -1px -1px 0px whitesmoke, -1px 0px 0px whitesmoke, -1px 1px 0px whitesmoke, -1px 2px 0px whitesmoke, 0px -2px 0px whitesmoke, 0px -1px 0px whitesmoke, 0px 1px 0px whitesmoke, 0px 2px 0px whitesmoke, 1px -2px 0px whitesmoke, 1px -1px 0px whitesmoke, 1px 0px 0px whitesmoke, 1px 1px 0px whitesmoke, 1px 2px 0px whitesmoke, 2px -2px 0px whitesmoke, 2px -1px 0px whitesmoke, 2px 0px 0px whitesmoke, 2px 1px 0px whitesmoke, 2px 2px 0px whitesmoke;
+}
+
+#piso{
+  background-color: #C4195D;
+  color: white;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
