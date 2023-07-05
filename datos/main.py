@@ -10,7 +10,8 @@ sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager)
 URIS = ["4ORsCg1x8p80RfW0vXA35N","3p7WXDBxhC5KS9IFXnwae7", "3knDOJUQBAATXsKYLWO4k8","4u3MPfHM60rFFULJebZIay","12n9nyAJ5Q4FHRldrciIPG","64EKrS1Ubw2rQ9qn9QRUq3","6sJTyQHzjefi0GgknYCgBf","2i0mqPNTcaLcmKWSMsE3c8", "0KVdzmHHGGE8STv19uYPiL"]
 campos = []
 campos2 = {}
-aux = {"name": 1, "album": 2, "popularity": 3, "artist": 4, "genre": 5, "year": 6}
+colores = {"Debut" : "#443f3c", "Post" :  "#af2366", "Homogenic": "#C22239", "Vespertine": "#4c4d4d", "Medúlla": "#1B1E24", "Volta": "#D63917","Vulnicura": "#E2DD81","Utopia": "#669A6C","Fossora": "#096E7B"}
+aux = {"name": 1, "album": 2, "popularity": 3, "artist": 4, "genre": 5, "year": 6, "color": 7}
 
 aux.update(sp.audio_features('4c6LgotpKGB791EsNeu9gr')[0])
 
@@ -47,8 +48,10 @@ with open("bjork.csv", 'w', encoding='UTF-8') as file:
 
             #Popularity of the track
             track_pop = sp.track(track_uri)["popularity"]
+
+            colorete = colores[nombre_album]
             
-            masterdict = {"name":track_name, "album": nombre_album, "popularity": track_pop, "artist": artist_name, "genre": random.choice(artist_genres), "year": release_year}
+            masterdict = {"name":track_name, "album": nombre_album, "popularity": track_pop, "artist": artist_name, "genre": random.choice(artist_genres), "year": release_year, "color": colorete}
             masterdict.update(sp.audio_features(track_uri)[0])
             writer.writerow(masterdict)
 file.close()

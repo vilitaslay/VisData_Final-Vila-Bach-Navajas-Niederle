@@ -1,14 +1,21 @@
 # calculo de medias
 bjork <- read.csv("C:/Users/juani/OneDrive/Escritorio/Facultad/Visualizacion de Datos/VisData_Final-Vila-Bach-Navajas-Niederle/datos/bjork.csv")
 
-valenceMedia <- c()
-loudnessMedia <- c()
+danceMedia <- c()
+instrMedia <- c()
 popMedia <- c()
+energyMedia <- c()
+acoustMedia <- c()
 for(i in bjork$album){
-  valenceMedia[i] <- mean(subset(bjork$valence, grepl(i, bjork$album)))
-  loudnessMedia[i] <- mean(subset(bjork$loudness, grepl(i, bjork$album)))
+  danceMedia[i] <- mean(subset(bjork$danceability, grepl(i, bjork$album)))
+  instrMedia[i] <- mean(subset(bjork$instrumentalness, grepl(i, bjork$album)))
+  energyMedia[i] <- mean(subset(bjork$energy, grepl(i, bjork$album)))
+  acoustMedia[i] <- mean(subset(bjork$acousticness, grepl(i, bjork$album)))
   popMedia[i] <- mean(subset(bjork$popularity, grepl(i, bjork$album)))
 }
-valenceMedia
-loudnessMedia
-popMedia
+
+danceMedia
+instrMedia 
+energyMedia 
+acoustMedia 
+popMedia 

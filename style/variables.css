@@ -5,14 +5,14 @@
     --main-text : hsl(0, 0%, 100%);
 
     /* Paleta Debut */
-    --Debut1 : hsl(22, 6, 25); 
+    --Debut1 : #443f3c; 
     --Debut2 : hsl(22, 7, 33);
     --Debut3 : hsl(20, 5, 48);
     --Debut4 : hsl(25, 7%, 67%);
     --Debut5 : hsl(27, 7, 73);
 
     /* Paleta Post */
-    --Post1 : hsl(331, 67%, 41%);
+    --Post1 : #af2366;
     --Post2 : hsl(338, 54%, 62%);
     --Post3 : hsl(0, 33, 15);
     --Post4 : hsl(359, 46, 79);
@@ -20,20 +20,20 @@
     
     /* Paleta Vespertine */
     --Vesp1 : hsl(180, 1, 15); 
-    --Vesp2 : hsl(180, 1, 30);     
+    --Vesp2 : #4c4d4d;     
     --Vesp3 : #6f7071; 
     --Vesp4 : hsl(200, 2, 70); 
     --Vesp5 : hsl(210, 6, 93); 
 
     /* Paleta Vulnicura */
     --Vuln1 : hsl(208, 36, 50);
-    --Vuln2 : hsl(57, 63%, 70%);
+    --Vuln2 : #e3de82;
     --Vuln3 : hsl(240, 9, 9);
     --Vuln4 : hsl(55, 35, 93);
     --Vuln5 : hsl(250, 25, 95);
 
     /* Paleta Fossora */
-    --Foss1 : hsl(187, 86, 26);
+    --Foss1 : #096e7b;
     --Foss2 : hsl(192, 22%, 46%);
     --Foss3 : hsl(352, 50, 25);
     --Foss4 : hsl(180, 19, 11);

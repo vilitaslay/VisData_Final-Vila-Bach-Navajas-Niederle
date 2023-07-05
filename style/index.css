@@ -10,7 +10,8 @@ body {
   margin: 0;
   padding: 0;
   /* background-color:rgb(207, 137, 93); */
-  font-family:Arial, Helvetica, sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
 
 }
 #foto1 {
@@ -18,85 +19,34 @@ body {
 }
 
 body {
-  background-image: url('gradiente.jpg');
+  background-image: url('../imagenes/gradiente.jpg');
   background-size: cover;
   background-position: center;
   min-height: 1280px;
-  color: #3b3b3b;
+  color: white;
   font-size: 24px;
 }
 
-p,
-h1,
-h2,
-h3,
-h4,
-a {
-  margin: 20px;
-  font-weight: 400;
-}
-
-a,
-a:visited,
-a:hover {
-  color: teal;
-  text-decoration: none;
-  border-bottom: 2px solid currentColor;
-}
-
-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-  -ms-flex-align: baseline;
-  align-items: baseline;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  /* background: #f3f3f3; */
-  padding: 1rem;
-  padding-right: 5rem;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
-.nav__examples {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-  -ms-flex-align: baseline;
-  align-items: baseline;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-top: 1rem;
-}
-
-.nav__examples > * {
-  margin-right: 0.5rem;
+h1 {
+  text-align: left;
 }
 
 #intro {
-  
-  max-width: 40rem;
-  margin: 1rem auto;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  max-width: 60rem;
+  margin: 0.5rem auto;
+  text-align: left;
 }
 
 .intro__hed {
-  background-color: rgb(190, 193, 100);
   font-family: bjork;
-  font-size: 3em;
+  font-size: 3.5em;
   line-height: 1.2;
-  color: rgb(89, 6, 6);
+  color: White;
   text-align: center;
-  padding: 2rem 0;
-  margin-bottom: 0.5rem;
+  padding-top: 30px;
+  margin-bottom: 0.1em;
 }
 .intro__hed0 {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 3em;
   line-height: 1.2;
   color: rgb(89, 6, 6);
@@ -109,44 +59,31 @@ nav {
   color: #8a8a8a;
 }
 
-#intro {
-  margin-bottom: 320px;
-}
-
 #outro {  
-  max-width: 40rem;
+  max-width: 60rem;
   margin: auto;
   -webkit-text-fill-color: #fff;
-
-  margin-bottom: 320px;
-  margin-top: 320px;
-  height: 640px;
 }
 
-@media (min-width: 840px) {
-  .nav__examples {
-    margin-top: 0;
-    margin-left: 2rem;
-  }
-}
 
 #scrolly {
   position: relative;
   /* background-color: #f3f3f3; */
-  padding: 1rem;
   transition: 1s;
+  font-size: 16px;
 }
 
 #scrolly svg  {
   display: block;
   margin: auto;
+  
 }
 
 article {
   position: relative;
   padding: 0;
-  max-width: 20rem;
-  margin: 0 auto;
+  max-width: 60rem;
+  margin: 0.5rem auto;
 }
 
 figure {
@@ -154,14 +91,13 @@ figure {
   position: sticky;
   left: 0;
   width: 100%;
-  margin: 0;
+  top: 0;
+  margin: 50px auto 0;
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   /* background-color: #8a8a8a; */
-  z-index: 0;
-  height: 100vh;
-  top: 0;
+  
 }
 
 figure p {
@@ -179,6 +115,8 @@ figure p {
 }
 
 .step {
+  top: 50%;
+  transition: 1s;
   margin: 20px;
   margin-top: 50px;
   height: 100vh;
@@ -186,21 +124,24 @@ figure p {
 
 .step:last-child {
   margin-bottom: 0;
-}
-
-
-/* Plot */
-g[aria-label="text"] text {
-  font-weight: bold;
-  font-size: 9px;
-  text-shadow: -2px -2px 0px whitesmoke, -2px -1px 0px whitesmoke, -2px 0px 0px whitesmoke, -2px 1px 0px whitesmoke, -2px 2px 0px whitesmoke, -1px -2px 0px whitesmoke, -1px -1px 0px whitesmoke, -1px 0px 0px whitesmoke, -1px 1px 0px whitesmoke, -1px 2px 0px whitesmoke, 0px -2px 0px whitesmoke, 0px -1px 0px whitesmoke, 0px 1px 0px whitesmoke, 0px 2px 0px whitesmoke, 1px -2px 0px whitesmoke, 1px -1px 0px whitesmoke, 1px 0px 0px whitesmoke, 1px 1px 0px whitesmoke, 1px 2px 0px whitesmoke, 2px -2px 0px whitesmoke, 2px -1px 0px whitesmoke, 2px 0px 0px whitesmoke, 2px 1px 0px whitesmoke, 2px 2px 0px whitesmoke;
+  
 }
 
 #piso{
-  background-color: #b02587;
+  background-color: var(--Post1);
   color: white;
   width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
+  font-size: 10px;
+
+  
 }
 
+#fixedText {
+  text-align: left;
+
+}
+
+#longboi {
+  max-width: 100%;
+}
