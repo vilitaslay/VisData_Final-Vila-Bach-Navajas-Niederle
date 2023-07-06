@@ -6,9 +6,9 @@
         "incorrecta1": "Debut",
         "incorrecta2": "Post",
         "incorrecta3": "Vulnicura",
-        "imagen": "hueguito/fotoalbums.png",
+        "imagen": "./hueguito/fotoalbums.png",
         "objectFit": "cover",
-        "cancion":"hueguito/mp3/Fungal_city.mp3"
+        "cancion":"./hueguito/mp3/Fungal_city.mp3"
     },
     {
         "categoria": "Bjork's hidden Gems",
@@ -17,9 +17,9 @@
         "incorrecta1": "Vespertine",
         "incorrecta2": "Post",
         "incorrecta3": "Vulnicura",
-        "imagen": "hueguito/fotoalbums.png",
+        "imagen": "./hueguito/fotoalbums.png",
         "objectFit": "cover",
-        "cancion":"hueguito/mp3/Like_someone_in_love.mp3"
+        "cancion":"./hueguito/mp3/Like_someone_in_love.mp3"
     },
     {
         "categoria": "Bjork's hidden Gems",
@@ -28,9 +28,9 @@
         "incorrecta1": "Fossora",
         "incorrecta2": "Post",
         "incorrecta3": "Vulnicura",
-        "imagen": "hueguito/fotoalbums.png",
+        "imagen": "./hueguito/fotoalbums.png",
         "objectFit": "cover",
-        "cancion":"hueguito/mp3/cocoon.mp3"
+        "cancion":"./hueguito/mp3/cocoon.mp3"
     },
     {
         "categoria": "Bjork's hidden Gems",
@@ -39,9 +39,9 @@
         "incorrecta1": "Vespertine",
         "incorrecta2": "Fossora",
         "incorrecta3": "Vulnicura",
-        "imagen": "hueguito/fotoalbums.png",
+        "imagen": "./hueguito/fotoalbums.png",
         "objectFit": "cover",
-        "cancion":"hueguito/mp3/Possibly_maybe.mp3"
+        "cancion":"./hueguito/mp3/Possibly_maybe.mp3"
     },
     {
         "categoria": "Bjork's hidden Gems",
@@ -50,8 +50,8 @@
         "incorrecta1": "Vespertine",
         "incorrecta2": "Post",
         "incorrecta3": "Debut",
-        "imagen": "hueguito/fotoalbums.png",
+        "imagen": "./hueguito/fotoalbums.png",
         "objectFit": "cover",
-        "cancion":"hueguito/mp3/Mouth_mantra.mp3"
+        "cancion":"./hueguito/mp3/Mouth_mantra.mp3"
     }
 ]

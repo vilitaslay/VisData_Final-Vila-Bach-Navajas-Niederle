@@ -32,7 +32,7 @@ function init() {
     .onStepProgress(handleStepProgress);
 }
 // fetch data
-d3.csv("../../datos/bjork.csv", d3.autoType).then(function (data) {
+d3.csv("../datos/bjork.csv", d3.autoType).then(function (data) {
   dataChart = data;
   // kick things off
   init();
@@ -45,10 +45,7 @@ function handleStepExit(response) {
   console.count("classed");
   d3.select(response.element).classed("is-active", false);
   response.element.style.transform = 'translateY(100px)';
-  if (key == "danceability") {
-    deleteFixedText(key);
-  }
-
+  
   if (key == "entrada") {
     deleteFixedText();
     d3.select("#scrolly figure svg").remove();
@@ -165,22 +162,22 @@ function updateFixedText(key) {
     d3.select("#fixedText")
     .append("img")
     .attr("src", "../imagenes/DebutInfo.svg")
-    .style("max-width", "50%")
-    .style("max-height", "50%");
+    .style("max-width", "65%")
+    .style("max-height", "65%");
   }
   else if(key == "instrumentalness"){
     d3.select("#fixedText")
     .append("img")
     .attr("src", "../imagenes/PostInfo.svg")
-    .style("max-width", "50%")
-    .style("max-height", "50%");
+    .style("max-width", "65%")
+    .style("max-height", "65%");
   }
   else if(key == "energy"){
     d3.select("#fixedText")
     .append("img")
     .attr("src", "../imagenes/HomoInfo.svg")
-    .style("max-width", "50%")
-    .style("max-height", "50%");
+    .style("max-width", "65%")
+    .style("max-height", "65%");
   }
   else if(key == "acousticness"){
     d3.select("#fixedText")
