@@ -1,4 +1,4 @@
-
+import scrollama from "scrollama";
 // using d3 for convenience
 let main = d3.select("main");
 let scrolly = main.select("#scrolly");
@@ -72,7 +72,7 @@ function handleStepEnter(response) {
   const key = $step.attr("data-step");
   updateFixedText($step.attr("data-step"));
 
-  if (key == "salida" || key == "entrada"){ 
+  if (key == "entrada"){ 
     deleteFixedText();
   } else {
     createChart(key);
@@ -163,7 +163,8 @@ function updateFixedText(key) {
     .append("img")
     .attr("src", "../imagenes/DebutInfo.svg")
     .style("max-width", "65%")
-    .style("max-height", "65%");
+    .style("max-height", "65%")
+    .style("top", "100%");
   }
   else if(key == "instrumentalness"){
     d3.select("#fixedText")
